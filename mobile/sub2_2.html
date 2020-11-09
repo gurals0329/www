@@ -1,0 +1,337 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>신풍제약-파이프라인</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="css/subcommon.css">
+<link rel="stylesheet" href="css/sub2_2.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+ <div id="skipNav">
+     <a href="#content">본문바로가기</a>
+     <a href="#gnb">네비게이션바로가기</a>
+ </div>
+ 
+ 
+  <div id="wrap">
+    <header id="headerArea">
+          <h1 class="logo"><a href="index.html">신풍제약주식회사</a></h1>
+          <a href="#" class="btn_all_menu">
+             
+              <span class="barTop"></span>
+              <span class="barMid"></span>
+              <span class="barBot"></span>
+          </a>
+          
+          <nav id="gnb">
+                <ul class="mainMenu">
+                   <img src="images/nav_x2.jpg" alt="">  
+                    <li class="depth1">
+                        <h3><a href="#">기업소개</a></h3>
+                        <ul>
+                           <li><a href="sub1_1.html">CEO인사말</a></li>
+                           <li><a href="sub1_2.html">회사연혁</a></li>
+                           <li><a href="sub1_3.html">위치안내</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">연구개발</a></h3>
+                        <ul>
+                           <li><a href="sub2_1.html">R&amp;D</a></li>
+                           <li><a href="sub2_2.html">파이프라인</a></li>
+                       </ul> 
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">홍보센터</a></h3>
+                        <ul>
+                           <li><a href="sub3_1.html">홍보영상</a></li>
+                           <li><a href="sub3_2.html">인사제도</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                    <h3><a href="#">고객지원센터</a></h3>
+                        <ul>
+                      
+                           <li><a href="sub4_1.html">FAQ</a></li>
+                       </ul> 
+                    </li>
+                </ul>
+                 <ul>
+                
+<?
+    if(!$userid)  //세션변수가 생성되어 있지 않으면 
+	{
+?>
+                    <li><a href="login/login_form.php">로그인</a></li>
+                    <li><a href="member/join.html">회원가입</a></li>
+                    
+                    
+<?
+	}
+	else     //세션변수가 생성되어 있으면(로그인이 되었으면)
+	{
+?>
+                 <li><a href="login/logout.php">로그아웃</a></li>
+                    <li><a href="login/member_form_modify.php">정보수정</a></li>
+<?
+	}
+?>
+                        </ul>
+            </nav>
+           
+      </header>
+    <div class="main">
+         <img src="images/sub2_vi.jpg" alt="">
+    <div class="sub_box">
+        <h3>기업소개</h3>
+        <p>BUSINESS OVERVIEW</p>
+    </div> 
+    </div>
+    <article id="content">
+            
+       <div class="title_area">
+           <h2>파이프라인</h2>  
+           <div class="clear_box"></div>
+       </div>
+           <div class="content_area">
+                 
+                   <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><span>구분</span></th>
+                            <th scope="col"><span>프로젝트명</span></th>
+                            <th scope="col"><span>적응중</span></th>
+                            <th scope="col">Discovery</th>
+                            <th scope="col">Pre-clinical</th>
+                            <th scope="col">Phase 1</th>
+                            <th scope="col">Phase 2</th>
+                            <th scope="col">Phase 3</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="3">신약</th>
+                            <td>SP-8008</td>
+                            <td>혈전증</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-8232</td>
+                            <td>심부전</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td><span class="box4"></span></td>
+                            <td><span class="box5"></span></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-8359</td>
+                            <td>동맥경화증</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td><span class="box4"></span></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><span>구분</span></th>
+                            <th scope="col"><span>프로젝트명</span></th>
+                            <th scope="col"><span>적응중</span></th>
+                            <th scope="col">Discovery</th>
+                            <th scope="col">Pre-clinical</th>
+                            <th scope="col">Phase 1</th>
+                            <th scope="col">Phase 2</th>
+                            <th scope="col">Phase 3</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="5">개량신약</th>
+                            <td>SP-8203</td>
+                            <td>뇌졸중</td>
+                            <td><span class="box1"></span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-4152</td>
+                            <td>관절염</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-6852</td>
+                            <td>골질환</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td><span class="box4"></span></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-3482</td>
+                            <td>고혈암</td>
+                            <td><span class="box1"></span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>SP-7505</td>
+                            <td>고지혈증</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"><span>구분</span></th>
+                            <th scope="col"><span>프로젝트명</span></th>
+                            <th scope="col"><span>적응중</span></th>
+                            <th scope="col">Discovery</th>
+                            <th scope="col">Pre-clinical</th>
+                            <th scope="col">Phase 1</th>
+                            <th scope="col">Phase 2</th>
+                            <th scope="col">Phase 3</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="3">의료기기</th>
+                            <td>sp-119</td>
+                            <td>필러</td>
+                            <td><span class="box1"></span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-218</td>
+                            <td>피복재</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            
+                            <td>SP-654</td>
+                            <td>유착방지</td>
+                            <td><span class="box1"></span></td>
+                            <td><span class="box2"></span></td>
+                            <td><span class="box3"></span></td>
+                            <td><span class="box4"></span></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+             </div> 
+    </article>
+     <footer id="footerArea">
+          <div class="footer_top">
+              <ul class="left">
+                  <li><a href="#">개인정보이용약관</a></li>
+                  <li><a href="#" class="topMove">TOP으로 이동</a></li>
+              </ul>
+              <div class="adress">
+                  <adress>
+                      본사: 서울특별시 강남구 역삼로 161 <br>
+                        Tel ; 02-2189-3400
+                  </adress>
+                  <adress>
+                      공장 : 경기도 안산시 단원구 원시로7 <br>
+                      신풍제약 Tel ; 031-491-6191
+                  </adress>
+                  <p>COPYRIGHT(C) SHINPOONG.CO,.LTD ALL</p>
+              </div>
+          </div>
+          <div class="footer_bottom">
+              <a href="index.html">PC버전</a>
+          </div>
+      </footer>
+  
+  </div>
+ 
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/sub_gnb.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/top.js"></script>
+
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+</script>
+ 
+ 
+</body>
+</html>

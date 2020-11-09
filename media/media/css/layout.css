@@ -1,0 +1,367 @@
+/* 와이드 pc  */
+#wrap{overflow: hidden; width: 100%}
+	
+
+
+
+
+#content{height: auto; width:100%; overflow: hidden}
+
+#content .con1{position: relative;  margin-bottom: 50px; height: 989px; overflow: hidden}
+#content .con1 .back{ width: 55%;height: 200%;transform: rotate(45deg); background: #edbe58;position: absolute;right: 25%;top: -30%;}
+#content .con1 img{position: absolute}
+#content .con1 .right{right:0 ;bottom: 0}
+#content .con1 .left{left: 5%; top:13% }
+#content .about{position: absolute; top: 30%; left:40%}
+#content .about .textbox{margin-top: 50px; width: 68%}
+#content .con1 p{text-align: left;font-size: 25px; font-weight: 500; line-height: 2.4em }
+#content .con1 h3{font-size: 50px; font-weight: 700}
+
+#content .con2{position: relative; width: 100%; background: #fff;height: 850px}
+#content .con2 .series{width: 90%; margin: 0 auto 100px}
+#content .con2 h3{font-size: 80px; font-weight: 700; text-align: center; margin-bottom: 50px}
+#content .con2 .left_year{float: left; width: 7%; position: absolute; top: 100px}
+#content .con2 .bar{ position: absolute;
+    margin-top: 84px;
+    left: 99px;
+    display: block;
+    width: 3%;
+    height: 309px;
+    background: #ccc;}
+
+
+#content .con2 .years span::before{width: 10px; height: 10px ;border-radius: 10px; background: #ccc; content: '';display: block; margin-left: -30px;margin-top: 3px; position: absolute}
+#content .con2 .years li{margin-top: 80px; margin-left: 126px}
+#content .con2 .product{}
+#content .con2 .product .pro_slide{position: absolute;
+    left: 26%;
+    top: 19%;
+    width: 20%;
+    }
+#content .con2 .product .pro_slide img{width: 100%; display: inline}
+#content .con2 .product .count{
+    position: absolute;
+    right: -11%;
+    top: 27%;
+    width: 50%
+    }
+#content .con2 .count ul{float: left}
+
+#content .con2 .count .one p{font-size: 92px;
+    ;
+    font-weight: 700;color: #edbe58}
+#content .con2 .count .two{width: 50%}
+#content .con2 .count .two p{font-size: 16px; line-height: 2em; color: #333; font-weight: 500}
+
+
+#content .con3{position: relative;height: auto}
+#content .con3 .text{background: url(../images/slice_111.jpg) center no-repeat fixed;background-size: cover;height:430px;  position: relative; width: 100%; overflow: hidden}
+#content .con3 .text h3{position: absolute; font-size: 80px; font-weight: 700; color: #fff; top: 150px ;left: 50%; margin-left: -172px}
+
+#content .con3 .char01{overflow: hidden;width: 80%; margin: 150px auto 100px; position: relative}
+#content .con3 .char01 img{width: 100%}
+
+#content .con3 .char01 dl{float: left;width:28% }
+#content .con3 .char01 dl dt{font-weight: 700; font-size: 5vw; margin-bottom: 80px}
+#content .con3 .char01 dl dd{font-weight: 500; font-size: 16px; line-height: 2.7em}
+#content .con3 .char01 a{color: #999; ;right: 1%;bottom: 3%;position: absolute}
+#content .con3 .char01 .left_img{float: left;width: 40%; margin-right: 2%}
+#content .con3 .char01 .right_img{float: left;display: block;width: 19%; margin-right: 10%}
+#content .con3 .char01 .right_img .bottom{margin-bottom: 11%}
+
+
+#content .con3 .char02{overflow: hidden; width: 80%; margin: 0 auto 100px;position: relative}
+#content .con3 .char02 img{width: 100%}
+#content .con3 .char02 dl{ float: left; width: 28%}
+#content .con3 .char02 dl dt{font-weight: 700; font-size: 5vw; margin-bottom: 80px}
+#content .con3 .char02 dl dd{font-weight: 500; font-size: 16px; line-height: 2.7em}
+#content .con3 .char02 a{color: #999;left: 29%;bottom: 3%;position: absolute}
+#content .con3 .char02 .left_img{float: right;width: 40%}
+#content .con3 .char02 .right_img{float: right;display: block;width: 19%;margin-right: 2%}
+#content .con3 .char02 .right_img   .bottom{margin-bottom: 11%}
+
+#content .con3 .other{overflow: hidden;width: 80%; margin: 0 auto 100px}
+#content .con3 .other img{width: 100%}
+#content .con3 .other h3{font-size: 80px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 100px}
+#content .con3 .other .current{float: left;position: relative;width: 47%; margin-right: 5%; margin-left: 1%}
+#content .con3 .other .current a{display: block}
+#content .con3 .other .current .other01{position: absolute; top: 30%;left:30%;color: #fff;font-size: 5vw; font-weight: 700}
+#content .con3 .other .select{width: 46%;float: left; }
+#content .con3 .other .select li{float: left;width: 48%; margin-bottom: 4%;  }
+#content .con3 .other .select li a{display: block;}
+
+#content .con3 .other .select li:nth-of-type(1),#content .con3 .other .select li:nth-of-type(3){margin-right: 4%}
+
+#content .con4{width: 100%;}
+#content .con4 h3{font-size: 80px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 150px}
+#content .con4 .trailer{width: 100%; margin-bottom: 50px;overflow: hidden}
+#content .con4 .trailer ul{margin: 0 5%; overflow: hidden; }
+#content .con4 .trailer ul li{float: left;width: 33.33%;text-align: center; position: relative}
+#content .con4 .trailer ul li a span{width: 80px;
+    height: 60px;
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    border-radius: 10%;
+    z-index: 20;
+    top: 37%;
+    left: 50%;
+    margin: -40px 0 0 -40px;}
+#content .con4 .trailer ul li a span::before{    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 32px solid #fff;
+    border-bottom: 20px solid transparent;
+    top: 11px;
+    left: 29px;
+    transition: .3s;}
+#content .con4 .trailer ul li a:hover span::before{border-left: 32px solid #edbe58;}
+#content .con4 .trailer ul li img{width: 90%;
+    margin-bottom: 16px;
+}}
+#content .con4 .trailer ul li p{height: 30px}
+#content .con4 .trailer ul li p:nth-of-type(1){text-align: left;font-size: 25px;border-bottom: 1px solid #333;width: 80%;margin-bottom: 10px; margin-left: 5%}
+#content .con4 .trailer ul li p:nth-of-type(2){text-align: left;margin-bottom: 5%; margin-left: 5%}
+
+
+#content .con5{margin-bottom: 150px; clear: both;width: 100%}
+#content .con5 .topMove{display: block;font-size: 30px;color: #afb4b5;margin: 60px auto 0;text-transform: uppercase;font-weight: bold;text-align: center; width: 300px}
+#content .con5 h3{font-size: 80px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 100px}
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	#content .con2 .product .pro_slide img{width: 244px; display: inline}
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   
+    /*con1*/
+    #content .about .textbox{margin-top: 50px; width: 58%}
+	#content .con1 p{text-align: left;font-size: 16px; font-weight: 500; line-height: 2.4em }
+    #content .con1 h3{font-size: 50px; font-weight: 700}
+    
+    /*con2*/
+    #content .con2 h3{font-size:50px; font-weight: 700; text-align: center; margin-bottom: 50px}
+#content .con2 .left_year{float: left; width: 7%; position: absolute; top: 100px}
+#content .con2 .bar{ position: absolute;
+    margin-top: 84px;
+    left: 67px;
+    display: block;
+    width: 3%;
+    height: 311px;
+    background: #ccc;}
+    #content .con2 .years li{margin-top: 80px; margin-left: 93px}
+
+
+#content .con2 .years span::before{width: 10px; height: 10px ;border-radius: 10px; background: #ccc; content: '';display: block; margin-left: -30px;margin-top: 3px; position: absolute}
+#content .con2 .years .one{margin-top: 80px; margin-left: 56px}
+  #content .con2 .years .two  
+ #content .con2 .product .count{right: -11%;}
+  
+    
+    /*con3*/
+    
+    #content .con3{position: relative;height: auto}
+    #content .con3 .text{background: url(../images/slice_111.jpg) center no-repeat scroll;background-size: cover;height:300px;  position: relative; background-attachment: scroll;width: 100%; overflow: hidden;}
+    #content .con3 .text h3{position: absolute; font-size: 50px; font-weight: 700; color: #fff; top: 150px ;left: 50%; margin-left: -108px}
+
+#content .con3 .char01{overflow: hidden;width: 90%; margin: 150px auto 100px; position: relative}
+
+
+
+#content .con3 .char01 dl dt{font-weight: 700; font-size: 50px; margin-bottom: 80px}
+ 
+#content .con3 .char01 a{color: #999; ;right: 1%;bottom: 3%;position: absolute}
+#content .con3 .char01 .left_img{float: left;width:50%; margin-right:10%}
+#content .con3 .char01 .right_img{display: none}
+#content .con3 .char01 .right_img .bottom{margin-bottom: 11%}
+
+
+#content .con3 .char02{overflow: hidden; width: 90%; margin: 0 auto 100px;position: relative}
+
+
+#content .con3 .char02 dl dt{font-weight: 700; font-size: 50px; margin-bottom: 80px}
+
+#content .con3 .char02 a{color: #999;left: 29%;bottom: 3%;position: absolute}
+#content .con3 .char02 .left_img{float: right;width: 50%}
+#content .con3 .char02 .right_img{display: none}
+#content .con3 .char02 .right_img   .bottom{margin-bottom: 11%}
+
+#content .con3 .other{overflow: hidden;width: 80%; margin: 0 auto 100px}
+#content .con3 .other img{width: 100%}
+#content .con3 .other h3{font-size: 50px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 100px}
+#content .con3 .other .current{float: left;position: relative;width: 47%; margin-right: 5%; margin-left: 1%}
+#content .con3 .other .current a{display: block}
+#content .con3 .other .current .other01{position: absolute; top: 30%;left:30%;color: #fff;font-size: 5vw; font-weight: 700}
+#content .con3 .other .select{width: 46%;float: left; }
+#content .con3 .other .select li{float: left;width: 48%; margin-bottom: 4%;  }
+#content .con3 .other .select li a{display: block;}
+#content .con3 .other .select li .act{outline: 5px solid red}
+#content .con3 .other .select li:nth-of-type(1),#content .con3 .other .select li:nth-of-type(3){margin-right: 4%}
+
+/*con4*/
+#content .con4 h3{font-size: 50px;margin-bottom: 100px}
+
+
+#content .con4 .trailer ul li{float: left;width: 48%;text-align: center; margin-left: 0}
+#content .con4 .trailer ul li:nth-child(1),#content .con4 .trailer ul li:nth-child(3),#content .con4 .trailer ul li:nth-child(5){margin-right: 4%}
+#content .con4 .trailer ul li img{width: 100%;
+    margin-bottom: 16px;
+}
+#content .con4 .trailer ul li p{height: 30px; width: 90%}
+#content .con4 .trailer ul li p:nth-of-type(1){text-align: left;font-size: 25px;border-bottom: 1px solid #333;width: 80%;margin-bottom: 10px;margin-left: 0}
+#content .con4 .trailer ul li p:nth-of-type(2){text-align: left;margin-bottom: 5%; margin-left: 0}
+    
+    #content .con5 h3{font-size: 50px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 100px}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   
+    
+    #content .con1{position: relative;  margin-bottom: 50px; height: 700px; overflow: hidden}
+    #content .con1 .right{right:0 ;bottom: 0;width: 20%}
+    #content .con1 .left{left: 5%; top:30% ;width: 26%}
+	#content .con1 p{text-align: left;font-size: 16px; font-weight: 500; line-height: 2.3em }
+    #content .con1 h3{font-size: 30px; font-weight: 700}
+    
+    #content .con2 .left_year{float: left; width: 7%; position: absolute; top: 100px}
+#content .con2 .bar{ position: absolute;
+    margin-top: 84px;
+    left: 50px;
+    display: block;
+    width: 3%;
+    height: 311px;
+    background: #ccc;}
+#content .con2 .product .count{right: -16%;}
+
+#content .con2 .years span::before{width: 10px; height: 10px ;border-radius: 10px; background: #ccc; content: '';display: block; margin-left: -30px;margin-top: 3px; position: absolute}
+#content .con2 .years li{margin-top: 80px; margin-left: 76px}
+    
+    .con4 .trailer ul li:nth-child(3),.con4 .trailer ul li:nth-child(2),#content .con4 .trailer ul li:nth-child(5),.con4 .trailer ul li:nth-child(4),.con4 .trailer ul li:nth-child(6){display: none}
+    #content .con4 .trailer ul li{float: left;width: 100%;text-align: center; margin-left: 0}
+    #content .con4{width: 90%;margin: 0 auto}
+    #content .con3 .char01 dl dt,#content .con3 .char02 dl dt{margin-bottom: 30px}
+    #content .con3 .text{background: url(../images/slice_111.jpg) center no-repeat scroll;background-size: cover;height:200px;  position: relative;width: 100%; overflow: hidden}
+    #content .con3 .text h3{top: 82px; font-size: 40px}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	  #content .about .textbox{margin-top: 50px; width: 68%}
+    #content .con2{display: none}
+    #content .con1{position: relative;; overflow: hidden; height: 600px}
+#content .con1 .back{ width: 55%;height: 200%;transform: rotate(45deg); background: #edbe58;position: absolute;right: 25%;top: -30%;}
+#content .con1 img{position: absolute}
+#content .con1 .right{display: none}
+#content .con1 .left{left: 5%; top:24%; width: 33%}
+#content .about{position: absolute; top: 13%; left:40%}
+#content .about .textbox{margin-top: 28px; width: 90%}
+#content .con1 p{text-align: left;font-size: 16px; font-weight: 500; line-height: 2.4em }
+#content .con1 h3{font-size: 30px; font-weight: 700}
+
+    
+#content .con2{position: relative; width: 100%; background: #fff;height: 850px}
+#content .con2 .series{width: 90%; margin: 0 auto 100px}
+#content .con2 h3{font-size: 80px; font-weight: 700; text-align: center; margin-bottom: 50px}
+#content .con2 .left_year{float: left; width: 7%; position: absolute; top: 100px}
+#content .con2 .bar{ position: absolute;
+    margin-top: 84px;
+    left: 100px;
+    display: block;
+    width: 3%;
+    height: 311px;
+    background: #ccc;}
+
+
+#content .con2 .years span::before{width: 10px; height: 10px ;border-radius: 10px; background: #ccc; content: '';display: block; margin-left: -30px;margin-top: 3px; position: absolute}
+#content .con2 .years li{margin-top: 80px; margin-left: 126px}
+#content .con2 .product{}
+#content .con2 .product .pro_slide{position: absolute;
+    left: 26%;
+    top: 19%;
+    width: 20%;
+    }
+#content .con2 .product .pro_slide img{width: 244px; display: inline}
+#content .con2 .product .count{
+    position: absolute;
+    right: -11%;
+    top: 27%;
+    width: 50%
+    }
+#content .con2 .count ul{float: left}
+
+#content .con2 .count .one p{font-size: 92px;
+    ;
+    font-weight: 700;color: #edbe58}
+#content .con2 .count .two{width: 50%}
+#content .con2 .count .two p{font-size: 16px; line-height: 2em; color: #333; font-weight: 500}
+
+
+
+#content .con3{position: relative;height: auto}
+#content .con3 .text{background: url(../images/slice_111.jpg) center no-repeat scroll;background-size: cover;height:200px;  position: relative; background-attachment: scroll;width: 100%; overflow: hidden;}
+#content .con3 .text h3{position: absolute; font-size: 30px; font-weight: 700; color: #fff; top: 80px ;left: 50%; margin-left: -73px}
+
+#content .con3 .char01{overflow: hidden;width: 90%; margin: 50px auto 50px; position: relative}
+#content .con3 .char01 img{width: 100%}
+
+#content .con3 .char01 dl{float: left;width:100% }
+#content .con3 .char01 dl dt{font-weight: 700; font-size: 5vw; margin-bottom: 30px;margin-top: 30px;text-align: center}
+#content .con3 .char01 dl dd{font-weight: 500; font-size: 16px; line-height: 2.7em; text-align: center; margin-bottom: 56px}
+#content .con3 .char01 a{color: #999; ;text-align: center; right: 50%; margin-right: -33px}
+#content .con3 .char01 .left_img{float: left;width: 100%; margin-right: 6%}
+#content .con3 .char01 .right_img{display: none}
+#content .con3 .char01 .right_img .bottom{margin-bottom: 11%}
+
+
+#content .con3 .char02{overflow: hidden; width: 90%; margin: 0 auto 50px;position: relative}
+#content .con3 .char02 img{width: 100%}
+#content .con3 .char02 dl{ float: left; width: 100%}
+#content .con3 .char02 dl dt{font-weight: 700; font-size: 5vw; margin-bottom: 30px;margin-top: 30px;text-align: center}
+#content .con3 .char02 dl dd{font-weight: 500; font-size: 16px; line-height: 2.7em; text-align: center; margin-bottom: 56px }
+#content .con3 .char02 a{color: #999;left: 50%;position: absolute;margin-left: -33px}
+#content .con3 .char02 .left_img{float: right;width: 100%}
+#content .con3 .char02 .right_img{display: none}
+#content .con3 .char02 .right_img   .bottom{margin-bottom: 11%}
+
+#content .con3 .other{overflow: hidden;width: 90%; margin: 0 auto 50px}
+#content .con3 .other img{width: 100%}
+#content .con3 .other h3{font-size: 30px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 50px}
+#content .con3 .other .current{float: left;position: relative;width: 100%; margin-right: 5%; margin-left: 1%}
+#content .con3 .other .current a{display: block}
+#content .con3 .other .current .other01{position: absolute; top: 30%;left:30%;color: #fff;font-size: 10vw; font-weight: 700}
+#content .con3 .other .select{width: 100%;float: left;margin-left: 6px; margin-top: 30px}
+#content .con3 .other .select li{width: 20%; margin-bottom: 0%;;   }
+#content .con3 .other .select li a{display: block;}
+
+#content .con3 .other .select li:nth-of-type(1),#content .con3 .other .select li:nth-of-type(3),.other .select li:nth-of-type(2){margin-right: 6%}
+
+#content .con4{width: 100%;}
+#content .con4 h3{font-size: 30px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 50px}
+
+
+
+#content .con5{margin-bottom: 50px; clear: both;width: 100%}
+#content .con5 .topMove{display: block;font-size: 30px;color: #afb4b5;margin: 60px auto 0;text-transform: uppercase;font-weight: bold;text-align: center; width: 300px}
+#content .con5 h3{font-size: 30px; font-weight: 700; color: #333; text-align: center ;margin-bottom: 100px}
+
+
+
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+     #content .con2{display: NONE}
+}
+
+

@@ -1,0 +1,318 @@
+.main{
+    font-size: 200px;
+    
+    text-align: center;
+    color: #edbe58;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -294px;    text-shadow: 5px 3px 0px rgba(255,255,255,1);}
+
+#content .story{width: 80%; margin: 50px auto 10%}
+#content .story h4{text-align: center; font-weight: 700 ;font-size: 70px; margin-bottom: 50px}
+#content .story p{text-align: center; line-height: 3em;font-size: 23px}
+
+#content .text{background:url(../images/char_full.jpg)center no-repeat fixed;background-size: cover;height:300px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 100px;position: relative}
+#content .text h3{font-size: 70px;  color: #fff; position: absolute; left: 50%; margin-left: -165px; top: 30%}
+
+#content .andy{width: 90%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .andy::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .andy img{width: 100%}
+#content .andy .char_box{float: left; width: 36%}
+#content .andy .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .andy .char_box p{font-size: 20px; line-height: 2.4em}
+#content .andy .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .andy ul{float: right; width: 30%}
+#content .andy ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .andy ul li:nth-child(2),#content .andy ul li:nth-child(4){margin-right: 0}
+
+#content .woody{width: 90%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .woody::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .woody img{width: 100%}
+#content .woody .char_box{float: left; width: 36%}
+#content .woody .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .woody .char_box p{font-size: 20px; line-height: 2.4em}
+#content .woody .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .woody ul{float: right; width: 30%}
+#content .woody ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .woody ul li:nth-child(2),#content .woody ul li:nth-child(4){margin-right: 0}
+
+#content .buzz{width: 90%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .buzz::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .buzz img{width: 100%}
+#content .buzz .char_box{float: left; width: 36%}
+#content .buzz .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .buzz .char_box p{font-size: 20px; line-height: 2.4em}
+#content .buzz .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .buzz ul{float: right; width: 30%}
+#content .buzz ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .buzz ul li:nth-child(2),#content .buzz ul li:nth-child(4){margin-right: 0}
+
+#content .bopeep{width: 90%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .bopeep::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .bopeep img{width: 100%}
+#content .bopeep .char_box{float: left; width: 36%}
+#content .bopeep .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .bopeep .char_box p{font-size: 20px; line-height: 2.4em}
+#content .bopeep .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .bopeep ul{float: right; width: 30%}
+#content .bopeep ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .bopeep ul li:nth-child(2),#content .bopeep ul li:nth-child(4){margin-right: 0}
+
+#content .jessie{width: 90%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .jessie::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .jessie img{width: 100%}
+#content .jessie .char_box{float: left; width: 36%}
+#content .jessie .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .jessie .char_box p{font-size: 20px; line-height: 2.4em}
+#content .jessie .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .jessie ul{float: right; width: 30%}
+#content .jessie ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .jessie ul li:nth-child(2),#content .jessie ul li:nth-child(4){margin-right: 0}
+
+#content .pgirl{width: 80%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .pgirl::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .pgirl img{width: 100%}
+#content .pgirl .char_box{float: left; width: 36%}
+#content .pgirl .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .pgirl .char_box p{font-size: 20px; line-height: 2.4em}
+
+#content .pgirl ul{float: right; width: 37%}
+#content .pgirl ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .pgirl ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+
+
+#content .pman{width: 80%; margin: 0 auto; overflow: hidden; position: relative; margin-bottom: 10%}
+#content .pman::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+#content .pman img{width: 100%}
+#content .pman .char_box{float: left; width: 36%}
+#content .pman .char_box h4{font-size: 50px; font-weight: 700; margin-bottom: 30px
+}
+#content .pman .char_box p{font-size: 20px; line-height: 2.4em}
+
+#content .pman ul{float: right; width: 37%}
+#content .pman ul li{float: left; margin: 0 5% 5% 0;width: 41.5%}
+#content .pman ul li:nth-child(2),#content .pman ul li:nth-child(4){margin-right: 0}
+
+
+
+
+@media screen and (max-width:1024px) {
+    #content .buzz::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 110px;position: absolute}
+    #content .pman::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 110px;position: absolute}
+    #content .pgirl::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top:110px;position: absolute}
+}
+@media screen and (max-width:768px) {
+    
+    .main{font-size: 100px;
+    text-align: center;
+    color: #edbe58;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -147px;}
+    #content .story p{text-align: center; line-height: 2em;font-size: 23px}
+    #content .story h4{text-align: center; font-weight: 700 ;font-size: 50px; margin-bottom: 50px}
+    #content .text h3{font-size: 50px;  color: #fff; position: absolute; left: 50%; margin-left: -118px; top: 30%}
+    #content .text{background:url(../images/char_full.jpg)center no-repeat fixed;background-size: cover;height:200px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 100px;position: relative}
+    #content .andy .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+}
+    #content .buzz .char_box h4{font-size: 30px;
+        
+}
+    #content .woody .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+}
+    #content .jessie .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+}
+    #content .bopeep .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+}
+    #content .pman .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+}
+    #content .pgirl .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+}
+    #content .buzz::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute}
+    #content .pgirl::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 88px;position: absolute}
+    #content .pman::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 88px;position: absolute}
+    /*a*/
+#content .andy .char_box p{line-height: 2em}    
+#content .andy .img_box{float: left;width: 55%;margin-left: 6%; margin-bottom: 40px}
+#content .andy ul{float: left; width:56%; margin-left: 46px}
+#content .andy ul li{float: left; margin-right: 1%;width: 24%}
+#content .andy ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+
+    /*w*/
+#content .woody .char_box p{line-height: 2em}
+#content .woody .img_box{float: left;width: 55%;margin-left: 6%; margin-bottom: 40px}
+#content .woody ul{float: left; width:56%; margin-left: 46px}
+#content .woody ul li{float: left; margin-right: 1%;width: 24%}
+#content .woody ul li:nth-child(2),#content .andy ul li:nth-child(4){margin-right: 1%}
+    /*b*/
+#content .buzz .char_box p{line-height: 2em}    
+#content .buzz .img_box{float: left;width: 55%;margin-left: 6%; margin-bottom: 40px}
+#content .buzz ul{float: left; width:56%; margin-left: 46px}
+#content .buzz ul li{float: left; margin-right: 1%;width: 24%}
+#content .buzz ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+    /*p*/
+#content .bopeep .char_box p{line-height: 2em}    
+#content .bopeep .img_box{float: left;width: 55%;margin-left: 6%; margin-bottom: 40px}
+#content .bopeep ul{float: left; width:56%; margin-left: 46px}
+#content .bopeep ul li{float: left; margin-right: 1%;width: 24%}
+#content .bopeep ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+    /*j*/
+#content .jessie .char_box p{line-height: 2em}    
+#content .jessie .img_box{float: left;width: 55%;margin-left: 6%; margin-bottom: 40px}
+#content .jessie ul{float: left; width:56%; margin-left: 46px}
+#content .jessie ul li{float: left; margin-right: 1%;width: 24%}
+#content .jessie ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+   
+    /*pg*/
+#content .pgirl .char_box p{line-height: 2em}    
+#content .pgirl ul{float: right; width: 38%}
+#content .pgirl ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .pgirl ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+    /*pm*/
+#content .pman .char_box p{line-height: 2em}
+#content .pman ul{float: right; width: 38%}
+#content .pman ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .pman ul li:nth-child(2),#content .pman ul li:nth-child(4){margin-right: 0}
+}
+@media screen and (max-width:640px) {
+     #content .story p{text-align: center; line-height: 2em;font-size: 16px}
+    /*a*/
+#content .andy .img_box{display: none}
+#content .andy .char_box p{font-size: 16px}    
+#content .andy ul{float: right; width: 38%}
+#content .andy ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .andy ul li:nth-child(2),#content .andy ul li:nth-child(4){margin-right: 0}
+#content .andy ul li:nth-child(4){display: none}
+    /*w*/
+#content .woody .img_box{display: none}
+#content .woddy .char_box p{font-size: 16px}  
+#content .woody ul{float: right; width: 38%}
+#content .woody ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .woody ul li:nth-child(2),#content .pgirl ul li:nth-child(4){margin-right: 0}
+#content .woody ul li:nth-child(4){display: none}
+    /*b*/
+#content .buzz .img_box{display: none}
+#content .buzz .char_box p{font-size: 16px}    
+#content .buzz ul{float: right; width: 38%}
+#content .buzz ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .buzz ul li:nth-child(2),#content .andy ul li:nth-child(4){margin-right: 0}
+#content .buzz::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 90px;position: absolute}
+#content .buzz ul li:nth-child(4){display: none}
+    /*p*/
+#content .bopeep .img_box{display: none}
+#content .bopeep .char_box p{font-size: 16px}
+#content .bopeep ul{float: right; width: 38%}
+#content .bopeep ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .bopeep ul li:nth-child(2),#content .andy ul li:nth-child(4){margin-right: 0}
+#content .bopeep ul li:nth-child(4){display: none}
+    /*j*/
+#content .jessie .img_box{display: none}
+#content .jessie .char_box p{font-size: 16px}
+#content .jessie ul{float: right; width: 38%}
+#content .jessie ul li{float: left; margin: 0 0 5% 0;width: 87.5%}
+#content .jessie ul li:nth-child(2),#content .andy ul li:nth-child(4){margin-right: 0}
+    #content .jessie ul li:nth-child(4){display: none}
+    #content .pman ul li:nth-child(4){display: none}
+    #content .pgirl ul li:nth-child(4){display: none}
+    #content .pman .char_box p{font-size: 16px}
+   
+    #content .pgirl .char_box p{font-size: 16px}
+    
+   
+}
+ /* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+    .main{font-size: 70px;
+    text-align: center;
+    color: #edbe58;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -103px;}
+	#wrap { min-width:320px; }
+    #content .story h4{text-align: center; font-weight: 700 ;font-size: 30px; margin-bottom: 30px}
+    #content .text{background:url(../images/char_full.jpg)center no-repeat fixed;background-size: cover;height:150px;  position: relative; width: 100%; overflow: hidden; margin-bottom:13%;position: relative}
+    #content .text h3{font-size: 30px;  color: #fff; position: absolute; left: 50%; margin-left: -71px; top: 40%}
+/*a*/
+#content .andy .char_box{ width: 100%; float: left; text-align: center}
+#content .andy .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .andy .char_box p{font-size: 16px; line-height: 2.4em}
+#content .andy .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .andy ul{float: right; width: 100%}
+#content .andy ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .andy ul li:nth-child(2),#content .woody ul li:nth-child(3){display: none}
+#content .andy::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}
+/*b*/
+#content .buzz .char_box{ width: 100%; float: left; text-align: center}
+#content .buzz .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .buzz .char_box p{font-size: 16px; line-height: 2.4em}
+#content .buzz .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .buzz ul{float: right; width: 100%}
+#content .buzz ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .buzz ul li:nth-child(2),#content .woody ul li:nth-child(3){display: none}
+#content .buzz::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}
+/*p*/
+#content .bopeep .char_box{ width: 100%; float: left; text-align: center}
+#content .bopeep .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .bopeep .char_box p{font-size: 16px; line-height: 2.4em}
+#content .bopeep .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .bopeep ul{float: right; width: 100%}
+#content .bopeep ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .bopeep ul li:nth-child(2),#content .woody ul li:nth-child(3){display: none}
+#content .bopeep::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}
+/*j*/
+#content .jessie .char_box{ width: 100%; float: left; text-align: center}
+#content .jessie .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .jessie .char_box p{font-size: 16px; line-height: 2.4em}
+#content .jessie .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .jessie ul{float: right; width: 100%}
+#content .jessie ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .jessie ul li:nth-child(2),#content .woody ul li:nth-child(3){display: none}
+#content .jessie::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}
+/*pm*/
+#content .pman .char_box{ width: 100%; float: left; text-align: center}
+#content .pman .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .pman .char_box p{font-size: 16px; line-height: 2.4em}
+#content .pman .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .pman ul{float: right; width: 100%}
+#content .pman ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .pman ul li:nth-child(2),#content .woody ul li:nth-child(3){display: none}
+#content .pman::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}
+/*pg*/
+#content .pgirl .char_box{ width: 100%; float: left; text-align: center}
+#content .pgirl .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .pgirl .char_box p{font-size: 16px; line-height: 2.4em}
+#content .pgirl .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .pgirl ul{float: right; width: 100%}
+#content .pgirl ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .pgirl ul li:nth-child(2),#content .woody ul li:nth-child(3){display: none}
+#content .pgirl::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}
+/*w*/
+#content .woody .char_box{ width: 100%; float: left; text-align: center}
+#content .woody .char_box h4{font-size: 30px; font-weight: 700; margin-bottom: 30px
+; text-align: center}
+#content .woody .char_box p{font-size: 16px; line-height: 2.4em}
+#content .woody .img_box{float: left;width: 26.5%;margin-left: 6%}
+#content .woody ul{float: right; width: 100%}
+#content .woody ul li{float: left; margin: 0 5% 5% 0;width: 100%}
+#content .woody ul li:nth-child(3){display: none}
+#content .woody::before{width: 100px ; height: 3px;background: #000; content: ''; display: block; top: 60px;position: absolute;left: 50%;margin-left: -50px}    
+    
+}   
+
+
+

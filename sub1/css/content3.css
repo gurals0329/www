@@ -1,0 +1,42 @@
+
+#content .content_area{}
+#map{position: relative; overflow: hidden; width: 1600px; height: 700px; left: 50%; margin-left: -800px; border: 1px solid #ccc}
+
+
+#content .content_area table{font-family: "Nanum";
+    margin: 30px 0 0 20px;
+    border-top: 2px solid #000;
+    position: absolute;
+    left: 50px; width: 300px}
+#content .content_area td{border-bottom: 2px solid #ccc; padding: 10px;}
+#content .content_area th{border-bottom: 2px solid #ccc; padding: 10px;}
+.tab_home{background: rgba(255,255,255,.8); width: 600px; height: 400px; border: 1px solid #ccc;position: absolute; bottom: -600px; right: 100px; box-shadow: 0 1px 1px 1px gray ;z-index: 1}
+
+
+.tab_home p{margin: 50px 0 50px 70px}
+.tab_home p:nth-child(1){font-size: 40px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; color: forestgreen}
+.tab_home p:nth-child(2){font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 20px}
+.tab_home span{margin: 0 0 0 70px;  font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 16px; position: relative}
+
+.con_bottom{ padding: 50px; width: 1200px; margin-bottom: 50px; overflow: hidden; position: relative }
+.con_bottom h3{font-size: 30px; font-weight: 700; font-family:  'Nanum Gothic', sans-serif; margin-bottom: 30px}
+.con_bottom img{margin: 30px}
+
+.con_bottom .top{ overflow: hidden; float: left; width: 600px}
+.con_bottom .top::after{content: ''; width: 1px; height: 70px; background: #ccc; position: absolute; left: 600px; top: 170px}
+.con_bottom .top .top_left{float: left}
+.con_bottom .top .top_left p{font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight:700; margin: 0 0 0 48px}
+.con_bottom .top .top_left img{width: 70px; margin: 40px 0 30px 50px}
+.con_bottom .top dl{float: right; margin:40px 140px 0 0}
+.con_bottom .top dt{float: left; line-height: 1.5em}
+.con_bottom .top dd{float: right; margin-left: 10px;  line-height: 1.5em}
+.con_bottom .top span{background: green;color: #fff}
+.con_bottom .top span:nth-child(1){background: blue; color: #fff}
+.con_bottom .top span:nth-last-child(1){background: red; color: #fff}
+.con_bottom .bottom{overflow: hidden; float: right; width: 600px}
+.con_bottom .bottom .bottom_left{float: left;margin-right: 40px}
+.con_bottom .bottom .bottom_left img{width: 80px; margin-left: 55px}
+.con_bottom .bottom .bottom_left p{font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight:700; margin: 10px 0 0 40px}
+.con_bottom .bottom dl{float:right; margin-right: 65px}
+.con_bottom .bottom dt{}
+.con_bottom .bottom dd{margin: 25px 0 0 0}

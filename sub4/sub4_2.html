@@ -1,0 +1,228 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-재무정보</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+   <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>투자정보</span> &gt;
+                   <strong>재무정보</strong>
+               </div>
+               <h2>재무정보</h2>
+                <div class="clear_box"></div>
+                
+            
+             </div>
+             <div class="content_area">
+             <div id="table1"></div
+                 
+             >
+             <!--
+              <section class="table1">
+                        <h3>재무상태표</h3>
+                        <p>(단위 : 원, K-IFRS 기준)</p>
+                        <table>
+                           <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th scope="col" class="eng">2019</th>
+                                <th scope="col" class="eng">2018</th>
+                                <th scope="col" class="eng">2017</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                               <th scope="row" class="lefteng">유동자산</th>
+                               <td class="righteng">150,110,381,899</td>
+                               <td class="righteng">163,511,008,888</td>
+                               <td class="righteng">157,270,717,246</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">비유동자산</th>
+                               <td class="righteng">94,040,665,604</td>
+                               <td class="righteng">88,815,414,915</td>
+                               <td class="righteng">84,576,694,373</td>
+                            </tr>
+                            <tr class="total">
+                               <th scope="row" class="lefteng">자산총계</th>
+                               <td class="righteng">244,151,047,503</td>
+                               <td class="righteng">252,326,423,803</td>
+                               <td class="righteng">241,847,411,619</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">유동부채</th>
+                               <td class="righteng">30,707,236,730</td>
+                               <td class="righteng">38,354,446,894</td>
+                               <td class="righteng">43,206,198,688</td>
+                            </tr>
+                             <tr>
+                               <th scope="row" class="lefteng">비유동부채</th>
+                               <td class="righteng">15,969,595,564</td>
+                               <td class="righteng">15,087,466,992</td>
+                               <td class="righteng">5,173,956,054</td>
+                            </tr>
+                            <tr class="total">
+                               <th scope="row" class="lefteng">부채총계</th>
+                               <td class="righteng">46,676,832,294</td>
+                               <td class="righteng">53,441,913,886</td>
+                               <td class="righteng">48,380,154,742</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">자본금</th>
+                               <td class="righteng">13,900,000,000</td>
+                               <td class="righteng">13,900,000,000</td>
+                               <td class="righteng">13,900,000,000</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">자본잉여금</th>
+                               <td class="righteng">24,060,979,169</td>
+                               <td class="righteng">24,035,401,374</td>
+                               <td class="righteng">24,013,125,251</td>
+                            </tr>
+                            <tr class="total">
+                               <th scope="row" class="lefteng">자본총계</th>
+                               <td class="righteng">197,474,215,209</td>
+                               <td class="righteng">198,884,509,917</td>
+                               <td class="righteng">193,467,256,877</td>
+                            </tr>
+                            <tr class="total">
+                               <th scope="row" class="lefteng">자본과부채총계</th>
+                               <td class="righteng">244,151,047,503</td>
+                               <td class="righteng">252,326,423,803</td>
+                               <td class="righteng">241,847,411,619</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                </section>
+                -->
+                <section class="table2">
+                    <h3>손익계산서</h3>
+                    <p>(단위 : 원, K-IFRS 기준)</p>
+                        <table>
+                           <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th scope="col" class="eng">2019</th>
+                                <th scope="col" class="eng">2018</th>
+                                <th scope="col" class="eng">2017</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="total">
+                               <th scope="row" class="lefteng">매출액</th>
+                               <td class="righteng">241,926,177,085</td>
+                               <td class="righteng">799,868,640,278</td>
+                               <td class="righteng">245,271,927,859</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">매출원가</th>
+                               <td class="righteng">949,799,868,64</td>
+                               <td class="righteng">9,799,868,6405</td>
+                               <td class="righteng">84,576,694,373</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">매출총이익</th>
+                               <td class="righteng">21,082,358,350</td>
+                               <td class="righteng">252,326,423,803</td>
+                               <td class="righteng">241,847,411,619</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">판매비와 관리비</th>
+                               <td class="righteng">30,087,466,992</td>
+                               <td class="righteng">38,354,446,894</td>
+                               <td class="righteng">43,206,198,688</td>
+                            </tr>
+                             <tr class="total">
+                               <th scope="row" class="lefteng">영업이익</th>
+                               <td class="righteng">15,969,595,564</td>
+                               <td class="righteng">15,087,466,992</td>
+                               <td class="righteng">5,900,000,000</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">기타비용</th>
+                               <td class="righteng">46,676,832,294</td>
+                               <td class="righteng">53,087,466,992</td>
+                               <td class="righteng">48,380,154,742</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">금융비용</th>
+                               <td class="righteng">13,035,401,374</td>
+                               <td class="righteng">13,847,411,619</td>
+                               <td class="righteng">13,884,509,917</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">자본잉여금</th>
+                               <td class="righteng">24,060,979,169</td>
+                               <td class="righteng">24,035,401,374</td>
+                               <td class="righteng">24,013,125,251</td>
+                            </tr>
+                            <tr >
+                               <th scope="row" class="lefteng">금융비용</th>
+                               <td class="righteng">197,474,215,209</td>
+                               <td class="righteng">198,884,509,917</td>
+                               <td class="righteng">193,467,256,877</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng">법인세비용</th>
+                               <td class="righteng">244,900,000,000</td>
+                               <td class="righteng">252,326,423,803</td>
+                               <td class="righteng">241,847,411,619</td>
+                            </tr>
+                             <tr class="total">
+                               <th scope="row" class="lefteng">법인세비용 차감전순이익</th>
+                               <td class="righteng">184,509,917,209</td>
+                               <td class="righteng">198,884,509,917</td>
+                               <td class="righteng">151,047,503,877</td>
+                            </tr>
+                            <tr class="total">
+                               <th scope="row" class="lefteng">주당이익</th>
+                               <td class="righteng">244,151,047,503</td>
+                               <td class="righteng">151,047,503,803</td>
+                               <td class="righteng">326,423,803,619</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                    
+                </section>
+              
+             </div> 
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+  <? include "../common/sub_foot.html" ?>
+  
+  <script src="js/data-json.js"></script>
+    
+</body>
+</html>

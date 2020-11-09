@@ -1,0 +1,133 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-위치안내</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=eddb50ff5f50fd6157bf8b728b15cb13"></script>
+    <script src="js/map2.js"></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+       <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <!-- 메인비주얼영역 -->
+        <div class="visual">
+            <img src="common/images/grass.jpg" alt="">
+        </div>
+        <!--서브네비영역 -->
+        <div class="subnav_box">
+            <h3>기업소개</h3>
+            <p>민족의 슬기와 긍지로 인류의 건강을 위하여</p>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub1_1.html">CEO 인사말</a></li>
+                    <li><a id="nav2" href="sub1_2.html">회사연혁</a></li>
+                    <li><a class="current" href="sub1_3.html">위치안내</a></li>
+                    <li><a id="nav4" href="sub1_4.html">경영이념</a></li>
+                </ul>
+            </div> 
+        </div>
+        
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>기업소개</span> &gt;
+                   <strong>위치안내</strong>
+               </div>
+               <h2>위치안내</h2>
+               <div class="clear_box"></div>
+             </div>
+             <div class="content_area">
+    
+                 <div id="map">
+                 </div>
+                 <div>
+                     <div class="tab_home">
+                    
+                          <p>신풍제약 본사</p>
+                          <p>서울특별시 강남구 역삼로 161</p>
+                            
+                        <table>
+                             <tbody>
+                                 <tr>
+                                     <th scope="row">TEL</th>
+                                     <td>02-2189-340</td>
+                                 </tr>
+                                 <tr>
+                                     <th scope="row">FAX</th>
+                                     <td>02-2189-3448-9</td>
+                                 </tr>
+
+                             </tbody>
+                         </table>
+                     </div>
+                     <div class="con_bottom">
+                         <h3>찾아오시는 길</h3>
+                         <div class="top">
+                          <div class="top_left">
+                           <img src="images/content3/bus.png" alt="버스">
+                           <p>버스이용</p>
+                           </div>
+                            <dl>
+                                <dt><span>간선</span><br><span>일반</span><br><span>마을</span><br><span>공항</span></dt>
+                                <dd>146 341 360 740 n13 n61 <br>6003 <br>서초03 <br>8008</dd>
+                            </dl>
+                         </div>
+                         <div class="bottom">
+                            <div class="bottom_left">
+                             <img src="images/content3/subway.png" alt="지하철">
+                              <p>주변지하철역</p>
+                              </div>
+                              <img src="images/content3/gangnam.jpg" alt="강남역">
+                             
+                             <dl>
+                                 <dt></dt>
+                                 <dd>2호선 강남역 3번출구(정면으로 5분거리)</dd>
+                             </dl>
+                         </div>
+                         
+                         
+                     </div>
+                     
+                     
+                 </div>
+             </div> 
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        
+    
+           <? include "../common/sub_foot.html" ?>
+   
+            <script>
+       $(document).ready(function(){
+          
+           
+           
+           
+       });
+    
+    </script>
+</body>
+</html>

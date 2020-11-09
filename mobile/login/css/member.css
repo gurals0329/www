@@ -1,0 +1,139 @@
+
+
+#content{
+    background:#fff;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px
+}
+.back{margin-bottom: -250px}
+.inner_wrap{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.id_for{font-weight: 700}
+.logo{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 100px 0 50px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+}
+#content .login_wrap{
+   
+    overflow: hidden;
+   
+}
+ul,li{list-style: none}
+#content h3{
+    font-size: 26px;
+    margin: 50px 40px 38px;
+}
+form{width: 88%; margin: 0 auto}
+#content .login_form{
+ 
+       width: 100%;
+    margin: 0 auto;
+    height: 60%;
+    border-radius: 9px;
+    ;background: rgba(255,255,255,.9)
+    ;border: 1px solid
+}
+#content .input_box{
+    margin: 0 40px 64px 40px;
+}
+#content .input_box li{
+    border-bottom: 2px solid #ccc;
+}
+#content .input_box li:nth-of-type(2){
+    background: url(../member/images/pw_icon.jpg) 96% center no-repeat
+}
+#content .input_box input{
+    width: 90%;
+    padding: 15px 5% 10px 0;
+    margin: 10px 0;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+#content .input_box input::placeholder{
+    color: #ccc;
+    font-size: 14px;
+}
+#content .input_box .login_input{
+    margin-top: 0;
+}
+#content .buttons{
+    margin:0 40px 40px 40px;
+}
+#content .buttons input{
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s
+}
+#content .login_button input{
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    background: #478255;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#content .login_button:hover input{
+    background: #2c5f38;
+    color: #fff;
+}
+
+}
+#content .join_btn:hover a{
+    background: #ccc;
+}
+#content .banner_wrap{width: 450px}
+#content .banner_wrap a{
+    display: block;
+    margin:40px 30px 0 15px
+}
+#content .banner_wrap a img{
+    border-radius: 10px;
+    width: 400px
+}
+#content .banner_wrap strong{font-size: 28px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    margin-left: 15px;}
+#content .banner_wrap p{    display: block;
+    padding-left: 15px;
+    line-height: 1.5em;
+}
+#content .close{
+    position: absolute;
+    right: 22px;
+    top: 12px;
+    display: block;
+    transition: 1s;
+    padding: 5px;
+    color: #333;
+    font-size: 35px
+}
+#content .close:hover{
+    transform: rotate(-360deg)
+}
+.join_button>p{font-size: 1.5vw; margin-top: 50px}
+.join_button a{color: #806433; font-weight: bold; text-decoration: underline}
+
+.find_btn a{ float: left;
+      margin-top: 50px;
+    margin-left: 67px;
+}
+
+.find_btn a:hover i{color: green}
+.find_btn a i{   margin-left: 32px;    font-size: 24px;
+    margin-bottom: 10px;
+}
+scale, select, input[type=button], input[type=submit], input[type=reset]{-webkit-appearance:none;}

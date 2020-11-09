@@ -1,0 +1,202 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>신풍제약-홍보영상</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="css/subcommon.css">
+<link rel="stylesheet" href="css/sub3_1.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+ <div id="skipNav">
+     <a href="#content">본문바로가기</a>
+     <a href="#gnb">네비게이션바로가기</a>
+ </div>
+ 
+ 
+  <div id="wrap">
+    <header id="headerArea">
+          <h1 class="logo"><a href="index.html">신풍제약주식회사</a></h1>
+          <a href="#" class="btn_all_menu">
+             
+              <span class="barTop"></span>
+              <span class="barMid"></span>
+              <span class="barBot"></span>
+          </a>
+          
+          <nav id="gnb">
+                <ul class="mainMenu">
+                   <img src="images/nav_x2.jpg" alt="">  
+                    <li class="depth1">
+                        <h3><a href="#">기업소개</a></h3>
+                        <ul>
+                           <li><a href="sub1_1.html">CEO인사말</a></li>
+                           <li><a href="sub1_2.html">회사연혁</a></li>
+                           <li><a href="sub1_3.html">위치안내</a></li>
+        
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">연구개발</a></h3>
+                        <ul>
+                           <li><a href="sub2_1.html">R&amp;D</a></li>
+                           <li><a href="sub2_2.html">파이프라인</a></li>
+                       </ul> 
+                    </li>
+                   <li class="depth1">
+                       <h3><a href="#">홍보센터</a></h3>
+                        <ul>
+                           <li><a href="sub3_1.html">홍보영상</a></li>
+                           <li><a href="sub3_2.html">인사제도</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                    <h3><a href="#">고객지원센터</a></h3>
+                        <ul>
+                           <li><a href="sub4_1.html">FAQ</a></li>
+                       </ul> 
+                    </li>
+                </ul>
+                <ul>
+                
+<?
+    if(!$userid)  //세션변수가 생성되어 있지 않으면 
+	{
+?>
+                    <li><a href="login/login_form.php">로그인</a></li>
+                    <li><a href="member/join.html">회원가입</a></li>
+                    
+                    
+<?
+	}
+	else     //세션변수가 생성되어 있으면(로그인이 되었으면)
+	{
+?>
+                 <li><a href="login/logout.php">로그아웃</a></li>
+                    <li><a href="login/member_form_modify.php">정보수정</a></li>
+<?
+	}
+?>
+                        </ul>
+            </nav>
+           
+      </header>
+    <div class="main">
+         <img src="images/sub3_vi.jpg" alt="">
+    <div class="sub_box">
+        <h3>홍보센터</h3>
+        <p>Make an investment</p>
+    </div> 
+    </div>
+    <article id="content">
+            
+       <div class="title_area">
+           <h2>홍보영상</h2>  
+           <div class="clear_box"></div>
+       </div>
+           <div class="content_area">
+               
+
+        <div class="box">
+        <div class="coverbox">
+         <p class="toptag">신풍제약이 미래를 만들어갑니다<br><span>보다 밝은 내일을 위해 노력하겠습니다</span></p>
+        <div class="left">
+        <iframe name="ifr1" width="96%" height="200px" src="https://www.youtube.com/embed/MgW-EIfogM0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="info">#민족과 슬기로<br><span>신풍제약 홍보영상</span></p>
+        </div>
+        </div>
+        
+        <ul class="right">
+         <li class="video video1"><a href="https://www.youtube.com/embed/MgW-EIfogM0" target="ifr1"><img src="images/video1.jpg" alt=""></a><p>#국문<br><span>신풍제약 홍보 영상</span></p></li>
+         <li class="video video2"><a href="https://www.youtube.com/embed/yefAHh1XPfI" target="ifr1"><img src="images/video4.jpg" alt=""></a><p>#영문<br><span>신풍제약 홍보 영상</span></p></li>
+         <li class="video video3"><a href="https://www.youtube.com/embed/uB83-_jLozo" target="ifr1"><img src="images/video2.jpg" alt=""></a><p>#신약개발<br><span>피라맥스</span></p></li>
+         <li class="video video4"><a href="https://www.youtube.com/embed/3XOeicIlQEY" target="ifr1"><img src="images/video3.jpg" alt=""></a><p>#국내공장<br><span>오송공장동영상</span></p></li>
+         <li class="video video5"><a href="https://www.youtube.com/embed/3XOeicIlQEY" target="ifr1"><img src="images/video3.jpg" alt=""></a><p>#해외공장<br><span>필리핀공장동영상</span></p></li>
+        </ul>
+           
+             
+            </div>
+           
+            </div>
+       
+    </article>
+     <footer id="footerArea">
+          <div class="footer_top">
+              <ul class="left">
+                  <li><a href="#">개인정보이용약관</a></li>
+                  <li><a href="#" class="topMove">TOP으로 이동</a></li>
+              </ul>
+              <div class="adress">
+                  <adress>
+                      본사: 서울특별시 강남구 역삼로 161 <br>
+                        Tel ; 02-2189-3400
+                  </adress>
+                  <adress>
+                      공장 : 경기도 안산시 단원구 원시로7 <br>
+                      신풍제약 Tel ; 031-491-6191
+                  </adress>
+                  <p>COPYRIGHT(C) SHINPOONG.CO,.LTD ALL</p>
+              </div>
+          </div>
+          <div class="footer_bottom">
+              <a href="index.html">PC버전</a>
+          </div>
+      </footer>
+  
+  </div>
+ 
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/sub_gnb.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/top.js"></script>
+<script src="js/tab2.js"></script>
+
+  
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+</script>
+ 
+ 
+</body>
+</html>

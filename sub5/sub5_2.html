@@ -1,0 +1,112 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-인사제도</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+     <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>홍보센터</span> &gt;
+                   <strong>인사제도</strong>
+               </div>
+               <h2>인사제도</h2>
+                <div class="clear_box"></div></div>
+             <div class="content_area">
+                 <div class="top">
+                    <p>모두가 하나되어 만들어 가는 희망찬 미래</p>
+                    <p>기업 발전의 원동력인 전 임직원을 위한 지속적인 근무 환경 개선과<br>
+                       삶의 질 향상을 통해 기업과 개인 모두의 희망찬 미래를 함께 만들어가고 있습니다.</p>
+                </div>
+                <div class="sub_visual"></div>
+                <div class="first">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>人間尊重</dt>
+                            <dd>신풍제약 인사제도의 원칙은 바로 '인간존중'입니다. <br>
+회사의 주인은 직원이라는 주인의식을 바탕으로 신뢰와 화합을 통한 공정한 승진 인사제도를 운영하고 있습니다.</dd>
+                        </dl>
+                    </li>
+                </ul>
+                </div>
+              
+                <div class="second">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>급여</dt>
+                                <dd>기본급 + 보너스(600%) + α(성과급)</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>근무시간</dt>
+                                <dd>09:00 ~ 18:00 (주5일 근무)</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="third">
+                   <p>복리후생</p>
+                    <ul>
+                        <li><span>경조휴가 및 경조금 지원</span></li>
+                        <li><span>자녀 학자금 지원</span></li>
+                        <li><span>사내 동아리활동 지원</span></li>
+                        <li><span>우수사원 표창 및 해외연수</span></li>
+                        <li><span>개인연금보험 가입지원</span></li>
+                        <li><span>휴양시설(콘도)지원</span></li>
+                    </ul>
+                </div>
+               
+                </div>
+                
+             
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        
+    <? include "../common/sub_foot.html" ?>
+    
+    <script>
+       $(document).ready(function(){
+          
+           
+           
+           
+       });
+    
+    </script>
+   
+    
+</body>
+</html>

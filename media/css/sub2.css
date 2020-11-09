@@ -1,0 +1,192 @@
+.main{
+    font-size: 200px;
+    
+    text-align: center;
+    color: #edbe58;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -294px;    text-shadow: 5px 3px 0px rgba(255,255,255,1);}
+#content{width: 80%;margin: 0 auto}
+#content .on{color: #fff; background: #edbe58}
+#content section{margin-bottom: 10%;display: none}
+#content .tabs{ margin: 80px auto 0%; height: 170px}
+
+#content .tabs ul{overflow: hidden}
+#content .tabs li{float: left;  margin-right: 5%;width: 20%}
+#content .tabs a{font-size: 50px; font-weight: 700; display: block; padding: 20px; text-align: center}
+
+/*1*/
+#content .series1 h3{font-size: 80px; text-align: center}
+#content .series1 .world{overflow: hidden; margin-bottom: 10%}
+#content .series1 .world img{float: left; width: 54%}
+#content .series1 .world p{float: right; width: 40%; font-size: 20px; margin-top: 12%; line-height: 2.5em}
+#content .series1 .bill{overflow: hidden}
+#content .series1 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:300px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series1 .text h3{font-size: 70px;  color: #fff; position: absolute; left: 50%; margin-left: -108px; top: 30%}
+#content .series1 .bill .char{float: right; overflow: hidden;width: 45%}
+#content .series1 .bill .char img{width: 100%;margin-bottom: 20px;float: left}
+#content .series1 .bill dl{float: left;width: 50%}
+#content .series1 .bill dt{font-size: 50px;font-weight: 700; margin-bottom: 30px} 
+#content .series1 .bill dd{font-size: 25px;line-height: 2.5em} 
+
+/*2*/
+#content .series2 h3{font-size: 80px; text-align: center; margin-bottom: 10%}
+#content .series2 .world{overflow: hidden; margin-bottom: 10%}
+#content .series2 .world img{float: left; width: 54%}
+#content .series2 .world p{float: right; width: 40%; font-size: 20px; margin-top: 12%; line-height: 2.5em}
+#content .series2 .bill{overflow: hidden}
+#content .series2 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:300px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series2 .text h3{font-size: 70px;  color: #fff; position: absolute; left: 50%; margin-left: -108px; top: 30%}
+#content .series2 .bill .char{float: right; overflow: hidden;width: 45%}
+#content .series2 .bill .char img{width: 100%;margin-bottom: 20px;float: left}
+#content .series2 .bill dl{float: left;width: 50%}
+#content .series2 .bill dt{font-size: 50px;font-weight: 700; margin-bottom: 30px} 
+#content .series2 .bill dd{font-size: 25px;line-height: 2.5em} 
+/*3*/
+#content .series3 h3{font-size: 80px; text-align: center; margin-bottom: 10%}
+#content .series3 .world{overflow: hidden; margin-bottom: 10%}
+#content .series3 .world img{float: left; width: 54%}
+#content .series3 .world p{float: right; width: 40%; font-size: 20px; margin-top: 12%; line-height: 2.5em}
+#content .series3 .bill{overflow: hidden}
+#content .series3 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:300px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series3 .text h3{font-size: 70px;  color: #fff; position: absolute; left: 50%; margin-left: -108px; top: 30%}
+#content .series3 .bill .char{float: right; overflow: hidden;width: 45%}
+#content .series3 .bill .char img{width: 100%;margin-bottom: 20px;float: left}
+#content .series3 .bill dl{float: left;width: 50%}
+#content .series3 .bill dt{font-size: 50px;font-weight: 700; margin-bottom: 30px} 
+#content .series3 .bill dd{font-size: 25px;line-height: 2.5em} 
+/*4*/
+#content .series4 h3{font-size: 80px; text-align: center; margin-bottom: 10%}
+#content .series4 .world{overflow: hidden; margin-bottom: 10%}
+#content .series4 .world img{float: left; width: 54%}
+#content .series4 .world p{float: right; width: 40%; font-size: 20px; margin-top: 12%; line-height: 2.5em}
+#content .series4 .bill{overflow: hidden}
+#content .series4 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:300px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series4 .text h3{font-size: 70px;  color: #fff; position: absolute; left: 50%; margin-left: -108px; top: 30%}
+#content .series4 .bill .char{float: right; overflow: hidden;width: 45%}
+#content .series4 .bill .char img{width: 100%;margin-bottom: 20px;float: left}
+#content .series4 .bill dl{float: left;width: 50%}
+#content .series4 .bill dt{font-size: 50px;font-weight: 700; margin-bottom: 30px} 
+#content .series4 .bill dd{font-size: 25px;line-height: 2.5em} 
+
+
+
+@media screen and (max-width:1024px) {
+	#content .series1 .world p{float: right; width: 40%; font-size: 18px; margin-top: 12%; line-height: 2.3em}
+    #content .series2 .world p{float: right; width: 40%; font-size: 18px; margin-top: 12%; line-height: 2.3em}
+    #content .series3 .world p{float: right; width: 40%; font-size: 18px; margin-top: 12%; line-height: 2.3em}
+    #content .series4 .world p{float: right; width: 40%; font-size: 18px; margin-top: 12%; line-height: 2.3em}
+    #content .series1 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:200px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series1 .text h3{font-size: 50px;  color: #fff; position: absolute; left: 50%; margin-left: -77px; top: 40%}
+    
+    #content .series2 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:200px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series2 .text h3{font-size: 50px;  color: #fff; position: absolute; left: 50%; margin-left: -77px; top: 40%}
+    
+    #content .series3 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:200px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series3 .text h3{font-size: 50px;  color: #fff; position: absolute; left: 50%; margin-left: -77px; top: 40%}
+    
+    #content .series4 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:200px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series4 .text h3{font-size: 50px;  color: #fff; position: absolute; left: 50%; margin-left: -77px; top: 40%}
+    #content .series1 .bill dt{font-size: 40px;font-weight: 700; margin-bottom: 30px} 
+#content .series1 .bill dd{font-size: 20px;line-height: 2.3em} 
+
+    #content .series2 .bill dt{font-size: 40px;font-weight: 700; margin-bottom: 30px} 
+#content .series2 .bill dd{font-size: 20px;line-height: 2.3em} 
+
+    #content .series3 .bill dt{font-size: 40px;font-weight: 700; margin-bottom: 30px} 
+#content .series3 .bill dd{font-size: 20px;line-height: 2.3em} 
+
+    #content .series4 .bill dt{font-size: 40px;font-weight: 700; margin-bottom: 30px} 
+#content .series4 .bill dd{font-size: 20px;line-height: 2.3em} 
+
+}@media screen and (max-width:768px) {
+	.main{
+    font-size: 100px;
+    
+    text-align: center;
+    color: #edbe58;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -147px;
+    }
+    #content .tabs ul{overflow: hidden}
+#content .tabs li{float: left; width: 100%}
+#content .tabs a{font-size: 20px; font-weight: 700; display: block; padding: 20px; text-align: center}
+    #content .tabs{ margin: 80px auto 0%; height: 300px}
+    
+    #content .series1 .world img{float: left; width: 100%}
+#content .series1 .world p{float: right; width: 100%; font-size: 20px; margin-top: 12%; line-height: 2.3em;text-align: center}
+    
+    #content .series2 .world img{float: left; width: 100%}
+#content .series2 .world p{float: right; width: 100%; font-size: 20px; margin-top: 12%; line-height: 2.3em;text-align: center}
+    
+    #content .series3 .world img{float: left; width: 100%}
+#content .series3 .world p{float: right; width: 100%; font-size: 20px; margin-top: 12%; line-height: 2.3em;text-align: center}
+    
+ #content .series4 .world img{float: left; width: 100%}
+#content .series4 .world p{float: right; width: 100%; font-size: 20px; margin-top: 12%; line-height: 2.3em;text-align: center}
+    #content .series1 h3{font-size: 50px; text-align: center}
+    #content .series2 h3{font-size: 50px; text-align: center}
+    #content .series3 h3{font-size: 50px; text-align: center}
+    #content .series4 h3{font-size: 50px; text-align: center}
+}@media screen and (max-width:640px) {
+    #content .series1 h3{font-size: 30px; text-align: center}
+    #content .series2 h3{font-size: 30px; text-align: center}
+    #content .series3 h3{font-size: 30px; text-align: center}
+    #content .series4 h3{font-size: 30px; text-align: center}
+     
+#content .series1 .world p{float: right; width: 100%; font-size: 16px; margin-top: 12%; line-height: 2.3em;text-align: center}
+     
+#content .series2 .world p{float: right; width: 100%; font-size: 16px; margin-top: 12%; line-height: 2.3em;text-align: center}
+      
+#content .series3 .world p{float: right; width: 100%; font-size: 16px; margin-top: 12%; line-height: 2.3em;text-align: center}
+ 
+#content .series4 .world p{float: right; width: 100%; font-size: 16px; margin-top: 12%; line-height: 2.3em;text-align: center}
+    
+    #content .series1 .bill .char{float:none; overflow: hidden;width: 100%}
+#content .series1 .bill .char img{width: 100%;margin-bottom: 20px;float: none}
+#content .series1 .bill dl{float: none;width:100%; text-align: center; margin-bottom: 5%}
+#content .series1 .bill dt{font-size: 30px;font-weight: 700; margin-bottom: 30px} 
+#content .series1 .bill dd{font-size: 16px;line-height: 2.3em} 
+    
+        #content .series2 .bill .char{float:none; overflow: hidden;width: 100%}
+#content .series2 .bill .char img{width: 100%;margin-bottom: 20px;float: none}
+#content .series2 .bill dl{float: none;width:100%; text-align: center; margin-bottom: 5%}
+#content .series2 .bill dt{font-size: 30px;font-weight: 700; margin-bottom: 30px} 
+#content .series2 .bill dd{font-size: 16px;line-height: 2.3em} 
+    
+        #content .series3 .bill .char{float:none; overflow: hidden;width: 100%}
+#content .series3 .bill .char img{width: 100%;margin-bottom: 20px;float: none}
+#content .series3 .bill dl{float: none;width:100%; text-align: center; margin-bottom: 5%}
+#content .series3 .bill dt{font-size: 30px;font-weight: 700; margin-bottom: 30px} 
+#content .series3 .bill dd{font-size: 16px;line-height: 2.3em} 
+    
+        #content .series4 .bill .char{float:none; overflow: hidden;width: 100%}
+#content .series4 .bill .char img{width: 100%;margin-bottom: 20px;float: none}
+#content .series4 .bill dl{float: none;width:100%; text-align: center; margin-bottom: 5%}
+#content .series4 .bill dt{font-size: 30px;font-weight: 700; margin-bottom: 30px} 
+#content .series4 .bill dd{font-size: 16px;line-height: 2.3em} 
+      #content .series3 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:100px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series3 .text h3{font-size: 40px;  color: #fff; position: absolute; left: 50%; margin-left: -62px; top: 40%}
+    #content .series2 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:100px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series2 .text h3{font-size: 40px;  color: #fff; position: absolute; left: 50%; margin-left: -62px; top: 40%}
+    #content .series1 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:100px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series1 .text h3{font-size: 40px;  color: #fff; position: absolute; left: 50%; margin-left: -62px; top: 40%}
+    #content .series4 .text{background:url(../images/villfull.jpg)center no-repeat fixed;background-size: cover;height:100px;  position: relative; width: 100%; overflow: hidden; margin-bottom: 10%;position: relative}
+#content .series4 .text h3{font-size: 40px;  color: #fff; position: absolute; left: 50%; margin-left: -62px; top: 40%}
+    
+	
+}@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+    .main{
+    font-size: 70px;
+    text-align: center;
+    color: #edbe58;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -103px;
+    }
+}

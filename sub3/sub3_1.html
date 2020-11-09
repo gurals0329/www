@@ -1,0 +1,101 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-R&amp;D스토리</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+       <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>연구개발</span> &gt;
+                   <strong>R&amp;D</strong>
+               </div>
+               <h2>R&amp;D</h2>
+               <div class="clear_box"></div>
+            </div>
+            <div class="content_area">
+              <div class="con1">
+               <div class="sub3_left1">
+               <a href="#">개발사진</a>
+               </div>
+               <div class="sub3_right1">
+                   <p><span>구충제</span><br> 기생충, 결핵, 성병 등 여러 질병이 만연하던 시절, 시대의 필수의약품인 구충제 개발전략으로 “메벤다졸” 이하 여러 구충제 개발 및 세계 2번째로 “프라지퀀텔” 합성 대량생산 및 제조방법을 개발하여 국내 및 국제 위생상태에 기여</p>
+               </div>
+               </div>
+               <div class="con2">
+                   <div class="sub3_left2"><a href="#">개발사진</a></div>
+                   <div class="sub3_right2"><p><span>개량신약</span><br>우수한 효과와 함께 부작용 감소, 복약편의성 등이 개선된 항고혈압제의 “칸데암로정CandeAmlo(칸데사르탄(Candesartan) + 암로디핀(Amlodipine))”, “에제로수정EzeRosu(에제티미브(Ezetimibe) + 로수바스타틴(Rosuvastatine)),을 개발
+                    </p>
+                    </div>
+                    </div>
+                    
+                    <div class="con3">
+                   <div class="sub3_left3">
+               <a href="#">개발사진</a>
+               </div>
+               <div class="sub3_right3">
+                   <p><span>원료의약품</span><br> 비스테로이드성 진통소염제(NSAIDs) “록소프로펜 소듐(Loxoprofen Sodium)”, 항암제 “독시플루리딘(Doxifluridine)” 세계 2번째, 국내 최초 원료 합성 대량생산 성공 및 글로벌 원료의약품 대량생산 성공</p>
+                   </div>
+               </div>
+                <div class="box">
+                   <dl class="hidden">
+                       <dt>글로벌 혁신형 제약기업</dt>
+                       <dd>합성신약</dd>
+                       <dd>개량신약</dd>
+                       <dd>원료의약품</dd>
+                       <dd>바이오신약</dd>
+                   </dl>
+                   
+                    </div>
+                </div>
+          
+            
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        
+    
+       <? include "../common/sub_foot.html" ?>
+       
+       <script>
+       $(document).ready(function(){
+          
+           
+           
+           
+       });
+    
+    </script>
+   
+    
+</body>
+</html>

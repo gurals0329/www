@@ -1,0 +1,22 @@
+
+/*  1depth의 고통 */
+.visual{width: 1920px; height: 300px;  position: relative;top: 130px; left: 50%; margin-left: -1000px; }
+
+.subnav_box{width: 1200px; margin: 0 auto;margin-bottom:200px ;top: 200px; position: relative}
+.subnav_box .subnav{border-bottom: 1px solid #ccc}
+.subnav_box .subnav ul{overflow: hidden;width: 1000px; margin: -70px 0 0 350px}
+.subnav_box h3{top: -200px; left:50%; color: #fff; font-size: 40px; position: absolute; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-left: -75px}
+.subnav_box p{position: absolute; font-size: 20px; font-family: 'Nanum Myeongjo', serif; top: -120px; left: 50%; color: #fff; margin-left: -233px;text-align: center; line-height: 1.5em}
+.subnav_box .subnav ul li{width: 25%; float: left; text-align: center}
+.subnav_box .subnav ul li a{font-size: 22px; display: block; padding: 20px 0; font-family:  'Nanum Gothic', sans-serif; font-weight: 700}
+.subnav_box .subnav ul li a:hover{border-bottom: 3px solid #4f875c; color: #4f875c;}
+.subnav_box .subnav ul li .current{border-bottom:3px solid #4f875c; color: #666; font-weight: bold; letter-spacing: -1px}
+#content{width: 1200px ; margin: 0 auto;}
+#content .title_area{}
+#content .line_map{color: #333; margin:24px 50px 100px 0; float: right; }
+#content .title_area h2{clear: both; text-align: center ; font-size: 60px; font-weight: 700;font-family:  'Nanum Gothic', sans-serif}
+#content .title_area .clear_box{width: 180px; height: 5px; background: #4f875c; margin: 20px 0 150px 510px}
+/*   
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+*/

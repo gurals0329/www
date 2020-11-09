@@ -1,0 +1,45 @@
+<script>
+
+            window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }
+
+}
+
+</script>
+
+
+        <!-- 메인비주얼영역 -->
+        <div class="visual">
+            <img src="common/images/medical.jpg" alt="">
+        </div>
+        <!--서브네비영역 -->
+        <div class="subnav_box">
+            <h3>제품정보</h3>
+            <p>민족의 슬기와 긍지로 인류의 건강을 위하여</p>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub2_1.html">건강정보</a></li>
+                    <li><a id="nav2" href="../product/list.php">제품검색</a></li>
+                </ul>
+            </div> 
+        </div>
+        

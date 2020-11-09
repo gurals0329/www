@@ -1,0 +1,188 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-고객지원센터</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+   <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>고객센터</span> &gt;
+                   <strong>고객지원센터</strong>
+               </div>
+               <h2>고객지원센터</h2>
+               <div class="clear_box"></div>
+            </div>
+            <div class="content_area">
+                 <div class="tabs">
+                  <ul>
+                      <li><a class="tab tab1" href="#none">FAQ</a></li>
+                      <li><a class="tab tab2" href="#none">전화상담</a></li>  
+                  </ul>
+                  </div>
+                
+    <section class="contlist">
+    <div class="faq">  
+	<div class="hgroup">  
+      <h3>자주묻는질문</h3>
+     </div>  
+      <ul>  
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>직접 약을 구매할수는 없나요?<span><i class="fas fa-arrow-up"></i></span></a>
+                   
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>약사법 50조 의약품 판매에 따라 의약품은 약국에서만 구입할 수 있습니다. 의약품 오남용의 우려로 약국 외 장소에서는 판매가 불가능하므로 자사 대표번호로 연락주시면 판매 약국을 안내해 드리겠습니다. </p>  
+        </li> 
+         
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>약품의 가격은 얼마인가요?<span><i class="fas fa-arrow-up"></i></span></a>
+                     
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>1999년 3월부터 ‘의약품 판매자 가격표시제’가 시행되어 약국에서 의약품의 가격을 결정하고 있습니다. 동일한 제품이더라도 판매장소, 지역별로 가격의 차이가 존재하기 때문에 제약회사가 가격을 안내해드릴 수 없습니다. 따라서 의약품 가격은 가까운 약국에 문의 주시기 바랍니다.</p>  
+          </li>
+          
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>사용기한이 지난 약은 복용 또는 교환이 되나요?<span><i class="fas fa-arrow-up"></i></span> </a>
+                    
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>사용기한이 경과한 약은 복용하지 않을 것을 권해드립니다. 사용기한은 약의 유효성을 보장하는 기간으로 기간이 경과된 제품은 약의 효능이 저하될 수 있고, 변질 및 변색이 발생해 안전 상의 문제가 발생하는 등 제품의 유효성과 안전성을 보증할 수 없습니다. <br> 사용기한이 경과한 제품은 약국 및 보건소의 ‘폐의약품 수거함’에 넣어 주시기 바랍니다.제품 구입시 사용기한이 지난 제품을 구입하셨다면, 구입처를 통해서 교환 및 환불하시기 바랍니다.</p>  
+          </li>
+          
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>제품의 사용기한은 어떻게 확인 할 수 있나요?<span><i class="fas fa-arrow-up"></i></span></a>  
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>제품 외부 포장의 측면을 보시면, [사용기한]이 기입되어 있습니다. [사용기한]은 “년.월.일” 순으로 6자리 숫자로 기재됩니다. <br> 예를 들어,[사용기한] 항에 “11.01.01”라고 표시되었다면, 2011년 1월 1일까지 복용이 가능한 제품입니다. * 간혹 일부 고객님께서는 [설명서 개정년월일]을 제품의 [사용기한]과 혼동하시는 경우가 있습니다. <br> [설명서 개정년월일]은 제품 사용기한과 무관하게, 제품의 허가사항 또는 설명서가 변경된 날짜이오니, 착오가 없으시길 바랍니다. 감사합니다.</p>  
+          </li>
+          
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>KF94 착용 시에 호흡이 불편한 경우, KF80으로도 미세먼지 필터가 되나요?<span><i class="fas fa-arrow-up"></i></span></a>   
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>KF80 제품의 경우 황사방지용으로 제작된 제품으로 미세먼지 필터링이 가능합니다.</p>  
+          </li>
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>IU가 뭔가요?<span><i class="fas fa-arrow-up"></i></span></a>   
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>International Unit의 약자로 국제단위입니다. 약리학에서 생체에 효력이 일어날 수 있는 단위를 일컫습니다. <br> 비타민D는 0.025㎍이 1IU로, 츄어블비타민D3의 3,000IU를 환산하면 75㎍입니다. 비타민 A,D,E 등의 종류에 따라 기준 단위가 다르기 때문에 복용하실 때 주의하셔야 합니다.</p>  
+          </li>   
+    </ul>
+  </div>
+  <div class="faq">  
+	<div class="hgroup">  
+      <h3>검증제품</h3>
+     </div>  
+      <ul>  
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>천연비타민입니까?<span><i class="fas fa-arrow-up"></i></span></a>
+                    
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; 				padding-top:10px" class="a" ><strong>A</strong>옥수수전분에서 발효 추출한 합성비타민입니다. </p>  
+        </li> 
+         
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>과량 복용할 경우 나타나는 부작용은 무엇입니까?<span><i class="fas fa-arrow-up"></i></span></a>
+                     
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>비타민C는 수용성 비타민입니다. 우리 몸에 필요한 양 이외에는 소변으로 배출되기 때문에 체내에 축적되지 않습니다. 과량을 복용할 경우에는 배탈, 설사, 속쓰림 등이 나타날 수 있습니다 </p>  
+          </li>
+          
+          <li class="article hide">  
+              <p class="q">  
+                  <a class="trigger" href="#none" ><strong>Q</strong>1일 비타민C 섭취 권장량은 어떻게 됩니까?<span><i class="fas fa-arrow-up"></i></span></a>
+                     
+              </p>  
+              <p style="padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:130px; overflow:hidden; padding-top:10px" class="a" ><strong>A</strong>한국인 성인의 비타민C 1일 권장 섭취량은 30mg ~ 1,000mg입니다. 이는 흡수량 기준이며, 우리가 섭취하는 비타민C는 100% 몸으로 흡수되지 못하고 50~80% 만이 흡수됩니다. <br>또한, 흡연이나 스트레스 등에 의해서 소비되는 것을 감안하면 개인에 따라 하루 500mg~1,000mg 정도를 섭취하는 것이 적당합니다 </p>  
+          </li>    
+    </ul>
+  </div>
+  
+                  </section>
+                  
+                 
+                  <div class="call">
+                  <section class="contlist">
+                     <div class="con_top">
+                      <img src="images/content1/good.jpg" alt="">
+                      <p>상담원도 누군가에게는 가족입니다.</p>
+                      </div>
+                      <h3>제품문의</h3>
+                      <ul>
+                          <li>
+                             <dl>
+                              <dt>온라인, 홈쇼핑, 일반유통(마트, 편의점)제품</dt>
+                              <dd>화장품 / 건강기능식품 / 의료기기 등</dd>
+                              <dd>※ 평일 09:00~17:30 점심시간 12:00~13:20(토,일요일 및 법정 공휴일 휴무)</dd>
+                             </dl>
+                             <span><i class="fas fa-phone-square-alt"></i>080-569-8607</span>
+                          </li>
+                          <li>
+                              <dl>
+                              <dt>약국 제품</dt>
+                              <dd>일반의약품 / 의약외품 등</dd>
+                              <dd>※ 평일 09:00~17:30 점심시간 12:00~13:20(토,일요일 및 법정 공휴일 휴무)</dd>
+                             </dl>
+                              <span><i class="fas fa-phone-square-alt"></i>080-550-7575</span>
+                          </li>
+                          <li>
+                              <dl>
+                              <dt>병원 제품</dt>
+                              <dd>처방의약품 / 병원용 의료기기 등</dd>
+                              <dd>※ 평일 09:00~17:30 점심시간 12:00~13:20(토,일요일 및 법정 공휴일 휴무)</dd>
+                             </dl>
+                              <span><i class="fas fa-phone-square-alt"></i>02-2191-9922</span>
+                          </li>
+                      </ul>
+                      
+                  </section>
+                  </div>
+                 
+            </div>
+            
+            
+            
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        
+    <? include "../common/sub_foot.html" ?>
+   <script src="js/sub6_1.js"></script>
+    
+    
+</body>
+</html>

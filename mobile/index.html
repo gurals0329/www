@@ -1,0 +1,343 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>신풍제약</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<script src="js/prefixfree.min.js"></script>
+
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+ <div id="skipNav">
+     <a href="#content">본문바로가기</a>
+     <a href="#gnb">네비게이션바로가기</a>
+ </div>
+ 
+ 
+  <div id="wrap">
+      <header id="headerArea">
+         
+          <h1 class="logo"><a href="index.html">신풍제약주식회사</a></h1>
+          
+          <a href="#" class="btn_all_menu">
+             
+              <span class="barTop"></span>
+              <span class="barMid"></span>
+              <span class="barBot"></span>
+          </a>
+          
+          <nav id="gnb">
+               
+                <ul class="mainMenu">
+                     <img src="images/gnb_logo.png" alt="">
+                    <li class="depth1">
+                        <h3><a href="#">기업소개</a></h3>
+                        <ul>
+                           <li><a href="sub1_1.html">CEO인사말</a></li>
+                           <li><a href="sub1_2.html">회사연혁</a></li>
+                           <li><a href="sub1_3.html">위치안내</a></li>
+                         
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">연구개발</a></h3>
+                        <ul>
+                           <li><a href="sub2_1.html">R&amp;D</a></li>
+                           <li><a href="sub2_2.html">파이프라인</a></li>
+                       </ul> 
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">홍보센터</a></h3>
+                        <ul>
+                           <li><a href="sub3_1.html">홍보영상</a></li>
+                           <li><a href="sub3_2.html">인사제도</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                    <h3><a href="#">고객지원센터</a></h3>
+                        <ul>
+                           <li><a href="sub4_1.html">FAQ</a></li>
+                       </ul> 
+                    </li>
+                </ul>
+                <ul>
+                
+<?
+    if(!$userid)  //세션변수가 생성되어 있지 않으면 
+	{
+?>
+                    <li><a href="login/login_form.php">로그인</a></li>
+                    <li><a href="member/join.html">회원가입</a></li>
+                    
+                    
+<?
+	}
+	else     //세션변수가 생성되어 있으면(로그인이 되었으면)
+	{
+?>
+                 <li><a href="login/logout.php">로그아웃</a></li>
+                    <li><a href="login/member_form_modify.php">정보수정</a></li>
+<?
+	}
+?>
+                        </ul>
+            </nav>
+           
+      </header>
+      
+      <div class="main">
+        <div class="visual">
+         <div class="gallery">
+          
+              <ul class="slides">
+                      <li class="link1"><img src="images/vi1.jpg" alt=""></li>
+                      <li class="link2"><img src="images/vi4.jpg" alt=""></li>
+                      <li class="link3"><img src="images/vi3.jpg" alt=""></li>
+              </ul>
+          </div>
+           
+          <div class="gallery_text">
+                <ul>
+                     <li>
+                         <p class="text_top">Technology</p>
+                         <p class="text_bottom">전문성과 신뢰성을 갖춘 초인류 제약기술</p>
+                     </li>
+                     <li>
+                         <p class="text_top">Ethics</p>
+                         <p class="text_bottom">믿음과 신뢰로 나아가는 신풍제약</p>
+                     </li>
+                     <li>
+                         <p class="text_top">Healthy Life</p>
+                         <p class="text_bottom">인류 모두의 건강한 삶,풍요로운 미래</p>
+                     </li>
+                </ul>
+          </div>
+            <div class="dock">
+              	<span class="mbutton  btn1" ></span>
+              	<span class="mbutton  btn2" ></span>
+             	<span class="mbutton  btn3" ></span>
+              	
+              	
+            </div>
+            <span class="ps"></span>
+          </div>   
+      </div>
+      <article id="content">
+         <h2 class="hidden">본문컨텐츠영역</h2>
+         <!--1단-->
+          <div class="int_inner">
+          <div class="introduce" >
+                <div class="int1"><img src="images/con1_x2.jpg" alt="회사사진"></div>
+                <div class="int2">
+                    <h3>민족의 슬기와 긍지로<br>인류의 건강을 위하여</h3>
+                    <a href="sub1_1.html"><img src="images/arrow_x1.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="research_development">
+                <div class="research1"><img src="images/con2_x2.jpg" alt="R&amp;D사진"></div>
+                <div class="research2">
+                    <h3>R&amp;D스토리</h3>
+                    <a href="sub2_1.html"><img src="images/arrow_x1.jpg" alt=""></a>
+                </div>
+            </div>
+          </div>
+          <!--2단-->
+           <ul class="product">
+               <li>
+                  <h3>PRODUCT</h3>
+                  <div class="line"></div>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                  <a href="#" class="swiper-slide">
+                  <img src="images/pro1.jpg" alt="">
+                   <dl>
+                       <dt>카젠정</dt>
+                       <dd>갱년기장애, 망맥락막의<br>순환장애에 의한 증상의 개선</dd>
+                   </dl>
+                   </a>
+                   
+                   <a href="#" class="swiper-slide">
+                     <img src="images/pro2.jpg" alt="">
+                     <dl>
+                         <dt>아가브론시럽</dt>
+                         <dd>급성 기관지염 폐혈관증 치료<br>혈액순환 증상 개선</dd>
+                     </dl>  
+                   </a>
+                   <a href="#" class="swiper-slide">
+                     <img src="images/pro3.jpg" alt="">
+                     <dl>
+                         <dt>테몰드캡슐</dt>
+                         <dd>새로이 진단된 다형성 교아종<br>미분화성상세포종의 치료</dd>
+                     </dl>   
+                   </a>
+                   <a href="#" class="swiper-slide">
+                     <img src="images/pro4.jpg" alt="">
+                     <dl>
+                         <dt>파캔서</dt>
+                         <dd>국소적으로 진행된 또는 전이성<br>유방암의 1차 치료</dd>
+                     </dl>   
+                   </a>
+                   <a href="#" class="swiper-slide">
+                     <img src="images/pro5.jpg" alt="">
+                     <dl>
+                         <dt>칸데암로</dt>
+                         <dd>암로디핀 단독요법으로 <br>혈압이 적절하게 조절되지 않는 본태성 고혈압</dd>
+                     </dl>   
+                   </a>
+                   <a href="#" class="swiper-slide">
+                     <img src="images/pro6.jpg" alt="">
+                     <dl>
+                         <dt>에제로수</dt>
+                         <dd>콜레스테롤을 감소시키고 <br>(HDL-C)을 증가시키기 위한<br>식이요법의 보조제</dd>
+                     </dl>   
+                   </a>
+                       
+                       
+                   </div>
+                   <div class="swiper-pagination"></div>
+                </div>
+                   
+               </li>
+               
+           </ul>
+          <!--3단-->
+           <ul class="movie">
+               <li>
+                  <h3>VIDEO</h3> 
+                  <div class="line1"></div>
+                  <video src="images/video2.mp4" poster="images/video_x2.jpg" controls width="80%"></video>
+                  <p>신풍제약</p>
+                  <span>민족의 슬기와 긍지로</span>
+                  <div class="line2"></div>
+                  
+               </li>
+           </ul>
+          <!--4단-->
+             <ul class="company">
+                 <li>
+                  <p>신풍이 추구하는 인재상은<br>
+                     미래를 함께 이끌어갈 여러분입니다.</p>
+                  <ul class="first">
+                      <li class="left">
+                        <img src="images/con5_x2.jpg" alt="">
+                        <dl>
+                            <dt>Creation</dt>
+                            <dd>창의적인 인재</dd>
+                        </dl>
+                      </li>
+                      <li class="right">
+                        <img src="images/con6_x2.jpg" alt="">
+                        <dl>
+                            <dt>Collaboration</dt>
+                            <dd>협업하는 인재</dd>
+                        </dl>  
+                      </li>
+                    </ul>
+                     <ul class="second">
+                      <li class="left">
+                        <img src="images/con7_x2.jpg"  alt="">
+                        <dl>
+                            <dt>Ownership</dt>
+                            <dd>의식있는 인재</dd>
+                        </dl>    
+                      </li>
+                      <li class="right">
+                        <img src="images/con8_x2.jpg" alt="">
+                        <dl>
+                            <dt>Globalization</dt>
+                            <dd>세계적인 
+                            인재</dd>
+                        </dl>    
+                      </li>
+                  </ul>
+              </li>
+            </ul>
+          <!--5단-->
+          <div class="recruit">
+              <h3>RECRUIT</h3>
+              <p>신풍의 미래를 만들어갈<br>인재를 찾습니다</p>
+              <a href="sub3_2.html">채용정보 바로가기</a>
+          </div>
+      </article>
+      
+     
+      <footer id="footerArea">
+          <div class="footer_top">
+              <ul class="left">
+                  <li><a href="#">개인정보이용약관</a></li>
+                  <li><a href="#" class="topMove">TOP으로 이동</a></li>
+              </ul>
+              <div class="adress">
+                  <adress>
+                      본사: 서울특별시 강남구 역삼로 161 <br>
+                        Tel ; 02-2189-3400
+                  </adress>
+                  <adress>
+                      공장 : 경기도 안산시 단원구 원시로7 <br>
+                      신풍제약 Tel ; 031-491-6191
+                  </adress>
+                  <p>COPYRIGHT(C) SHINPOONG.CO,.LTD ALL</p>
+              </div>
+          </div>
+          <div class="footer_bottom">
+              <a href="../index.html">PC버전</a>
+          </div>
+      </footer>
+  
+  </div>
+ 
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/move.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/top.js"></script>
+
+  
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+</script>
+ 
+</body>
+</html>

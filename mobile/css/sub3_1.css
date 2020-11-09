@@ -1,0 +1,33 @@
+
+.main {position: relative;margin-top: 62px}
+.main img{width: 100%}
+.main .sub_box{position: absolute;top:30%;left: 50%;margin-left: -88px;text-align: center; line-height: 1.8em}
+.main .sub_box h3{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #fff}
+.main .sub_box p{font-size: 16px;color: #fff;font-weight: 700}
+
+.title_area{text-align: center; line-height: 1.8em;margin-top: 50px}
+.title_area h2{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #333; margin-bottom: 10px}
+.title_area .clear_box{width: 35px; height: 2px; background: #4f875c; position: relative; left: 50%; margin-left: -17px}
+.content_area{margin-top: 50px;}
+
+.content_area .box{overflow: hidden; position: relative; margin-bottom: 150px}
+.content_area .box .left{margin: 50px 0 0 0}
+.content_area .box .right{margin-top: 100px; position: relative}
+.content_area .box .right li{float: left; margin:0 0 50px 10px}
+
+
+
+.content_area .box .right li p{font-family: 'Nanum Gothic',sans-serif; color: #999; line-height: 2em; padding: 20px 0 0 0; font-size:14px;float: right; margin-left: 10px}
+.content_area .box .right li p span{font-size: 16px;color: #333; font-weight: 700}
+
+.content_area .box .coverbox .left{margin:150px 2% 30px 2%; margin-top: 150px; box-shadow: none; border: none}
+.content_area .box a img{float: left}
+
+.content_area .box .right .current{transform: scale(1.1); }
+.content_area .box .coverbox{border: 1px solid #ccc}
+
+.content_area .coverbox .toptag{position: absolute;left: 50%;margin-left:-140px ;top: 50px;font-size: 18px; font-weight: 700;font-family: 'Nanum Myeongjo', serif;text-align: center; line-height: 2em;  color: #666;text-align: center}
+.content_area .coverbox .toptag span{font-size: 14px}
+
+.content_area .coverbox .info{font-size: 14px; font-weight: 700;font-family: 'Nanum Myeongjo', serif; margin-top: 40px; line-height: 2em; color: #478255; text-align: center}
+.content_area .coverbox .info span{font-size: 16px; color: #333; display: block; margin-top: 10px}

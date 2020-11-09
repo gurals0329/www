@@ -1,0 +1,24 @@
+/*투자정보*/
+#content .content_area{}
+#content .content_area .int p{text-align: justify; margin: 0 0 30px 0; line-height: 2em; font-size: 18px}
+#content .content_area p:nth-child(1){font-size: 35px; color: green;font-family: 'Nanum Gothic', sans-serif; font-weight: 700; text-align: center; margin-bottom: 100px}
+#content .content_area .int p:last-child{margin-bottom: 150px}
+
+.content_area .company{width: 100% ; margin: 0 auto; position: relative}
+.content_area .company .opacity_box{width: 2000px; height: 550px; background: rgba(0,0,0,.2); position: absolute; left: -400px; top: 0}
+.content_area .company_img{width: 2000px;height: 550px;background: url(../images/content4/company.jpg) top;margin-left: -400px; background-attachment: fixed; margin-bottom: 100px}
+.content_area .company table{position: absolute; left: 100px ;top: 100px; border-top: 3px solid #fff; color: #fff;width: 500px}
+.content_area .company table tbody{}
+.content_area .company table tr{border-bottom: 1px solid #fff}
+.content_area .company table th{padding: 25px 0 25px 0; font-size: 1.2em}
+.content_area .company table td{text-align: center; font-size: 1.2em; font-weight: bold}
+.content_area .grid{overflow: hidden; margin-bottom: 150px;position: relative}
+.content_area .grid .mudule{float: left; width: 400px; text-align: center}
+.content_area .grid .mudule::before{content: ''; width: 1px; height: 100px; background: #ccc; position: absolute;right: 400px; top: 30px}
+.content_area .grid .mudule::after{content: ''; width: 1px; height: 100px; background: #ccc; position: absolute; right: 800px; top: 30px}
+.content_area .grid .mudule i{font-size: 50px; color: #5ea849}
+.content_area .grid .mudule p{margin-top: 30px; margin-left: -10px}
+
+.content_area .grid .mudule p span{font-size: 40px; font-weight: bold}
+.content_area .grid .mudule .number{margin-left: 5px; color: #666}
+.content_area .grid .mudule .name{margin-left: 5px; font-weight: bold; color: #666}

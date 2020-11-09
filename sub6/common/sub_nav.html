@@ -1,0 +1,35 @@
+        <script src="../common/js/jquery-1.12.4.min.js"></script>
+        <script>
+              $(document).ready(function() {
+                  var num = '<?=$_GET['num']?>';
+
+                  if(num==1){
+                      $('.subnav ul li:eq(0)').find('a').addClass('current');
+                  }else if(num==2){
+                      $('.subnav ul li:eq(1)').find('a').addClass('current');
+                  }else if(num==3){
+                      $('.subnav ul li:eq(2)').find('a').addClass('current');
+                  }
+               });
+
+        </script>
+
+
+        <!-- 메인비주얼영역 -->
+        <div class="visual">
+            <img src="common/images/phone.jpg" alt="">
+        </div>
+        <!--서브네비영역 -->
+        <div class="subnav_box">
+            <h3>고객센터</h3>
+            <p>신풍제약은 항상 고객의 소리에 귀 기울이겠습니다</p>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub6_1.html">고객지원센터</a></li>
+                     <li><a id="nav2" href="../free/list.php">NEWS</a></li>
+                    <li><a id="nav3" href="../greet/list.php">NOTICE</a></li>
+                   
+                </ul>
+            </div> 
+        </div>
+        

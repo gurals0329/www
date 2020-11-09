@@ -1,0 +1,67 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-NOTICE</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+   <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>고객센터</span> &gt;
+                   <strong>NOTICE</strong>
+               </div>
+               <h2>NOTICE</h2>
+                <div class="clear_box"></div>
+                
+            
+             </div>
+             <div class="content_area">
+             
+             
+                 
+             </div> 
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+     <? include "../common/sub_foot.html" ?>
+   <script>
+       $(document).ready(function(){
+          
+           
+           
+           
+       });
+    
+    </script>
+    
+</body>
+</html>

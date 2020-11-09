@@ -1,0 +1,109 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-경영이념</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <? $_GET['num_k']=4;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>기업소개</span> &gt;
+                   <strong>경영이념</strong>
+               </div>
+               <h2>경영이념</h2>
+               <div class="clear_box"></div>
+               
+             </div>
+             <div class="content_area">
+               <div class="int">
+                <p>민족의 슬기와 긍지로 인류의 건강을 위하여</p>
+                <p>신풍제약은 "민족의 슬기와 긍지로 인류의 건강을 위하여"라는 경영 이념으로 의약품 한 알 한 알에 정성을 들여 생명을 지키고 있으며, 최첨단 제조설비와 품질보증시스템으로 유효성분에서부터 완제의약품을 생산하는 치료제 전문회사입니다.</p>
+                <p>끊임없는 R&amp;D를 통한 자체 원료합성을 기반으로 최고의 경쟁력을 갖춘 기업, 고객으로부터 신뢰 받는 기업, 인류복지증진에 기여하는 기업으로 인화단결, 책임완수, 창조개척 의 정신과 의약보국과 신약개발을 실현하고 있습니다.</p>
+                <p>앞으로도 신풍제약은 국산의약품의 세계화를 통해 국민보건향상과 인류의 건강을 위해 계속 전진 해 나갈 것이며, “세계 속의 신풍”이 되고자 부단한 노력과 "국민건강을 위한 기술개발"이란 기업목표을 구현하기 위해 의약품선진화에 노력할 것입니다.</p> 
+                </div>
+                <div class="grid">
+                    <div class="mudule">
+                       <i class="fas fa-flask"></i>
+                       <p class="number"><span class="count1">210</span></p>
+                       <p class="name">Product</p> 
+                    </div>
+                    <div class="mudule">
+                       <i class="fas fa-users"></i>
+                       <p class="number"><span class="count2">730</span></p>
+                       <p class="name">Employees</p> 
+                    </div>
+                    <div class="mudule">
+                       <i class="far fa-building"></i>
+                       <p class="number"><span class="count3">1962</span></p>
+                       <p class="name">Since</p> 
+                    </div>
+                </div>
+                <div class="company">
+                   <div class="company_img"></div>
+                   <div class="opacity_box"></div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row">회사명</th>
+                                <td>신풍제약(주)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">대표이사</th>
+                                <td>유제만</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">주소</th>
+                                <td>서울특별시 강남구 역삼로 161</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">설립일</th>
+                                <td>1962년 1월 19일</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">임직원수</th>
+                                <td>720명 재직중(2019.3.)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+             </div> 
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        
+    
+           <? include "../common/sub_foot.html" ?>
+   
+            <script src="js/number.js"></script>
+</body>
+</html>

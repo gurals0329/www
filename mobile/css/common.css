@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+table{border-collapse: collapse}
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol
+, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ ;
+ text-decoration:none }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {border-radius:1px}
+textarea { resize:none; }
+label { cursor:pointer; }
+.hidden,#skipNav{display: block;position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+ul,li{list-style: none}
+
+/* 전체 공통*/
+#wrap{ width:100%; position: relative; overflow:hidden}
+
+
+/*헤더공통*/
+header{width: 100%; overflow: hidden}
+header h1{width:80%; float: left; margin: 20px 0 12px 5%;position: absolute;z-index: 100}
+header h1 a{background: url(../images/logo1_x1.png)no-repeat; text-indent: -999px; display: block;overflow: hidden;padding: 10px 0; }
+
+@media screen and(-webkit-min-device-pixel-ratio:2){
+    .logo a{background: url(../images/logo1_x2.png)no-repeat; background-size: 149px 26px} 
+}
+#gnb{clear:both; width:100%; position:absolute; right:-100%; top:0;
+	     background:#00aa54; opacity:0; z-index:100}
+#gnb .mainMenu{padding-top: 100px} 
+#gnb .mainMenu img{width: 10%; margin: -80px 0 0 20px}
+#gnb h3{font-weight: 700;font-family: 'Nanum Gothic', sans-serif;font-size: 24px;color: #fff}
+
+#gnb li{text-align:center}
+#gnb li a{display: block; padding: 15px 0;color: #fff} 
+#gnb li ul{ display: none}
+#gnb li ul li a{font-size: 18px}
+     
+#gnb .last{border-bottom:1px solid #FFF}
+
+#headerArea  .btn_all_menu {overflow: hidden;z-index:9999999;position: absolute;width: 30px;height: 25px;right: 5%;top: 35px;margin-top: -12.5px;}
+#headerArea  .btn_all_menu span{position: absolute;right: 0;height: 20%;background-color: #fff;border-radius: 8px;
+transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out;width: 100%;}
+#headerArea  .btn_all_menu span.barTop{top: 0px;}
+#headerArea  .btn_all_menu span.barMid{top: 10px;}
+#headerArea  .btn_all_menu span.barBot{top: 20px;}
+#headerArea  .btn_all_menu.active span {background-color: #fff}
+#headerArea  .btn_all_menu.active span.barTop{transform:rotate(45deg) translate(8px, 6.5px);-webkit-transform:rotate(45deg) translate(8px, 6.5px);}
+#headerArea  .btn_all_menu.active span.barMid{width: 0;}
+#headerArea  .btn_all_menu.active span.barBot{transform:rotate(-45deg) translate(8px, -6.5px);-webkit-transform:rotate(-45deg) translate(8px, -6.5px);}
+
+ul,li{list-style: none}
+
+
+
+/*푸터공통*/
+
+#footerArea{color: #fff}
+#footerArea a{color: #fff}
+#footerArea .footer_top{width: 100%;background: #4e4e4f; padding: 15px 0}
+#footerArea .footer_top .adress{font-size: 12px; text-align: center; line-height: 2em}
+
+#footerArea .footer_top .left{overflow: hidden; font-size: 14px; }
+#footerArea .footer_top ul li{float: left; width: 50%; padding: 10px 0; text-align: center}
+
+
+#footerArea .footer_bottom{background: #646363 }
+#footerArea .footer_bottom a{display: block; width: 100%; text-align: center; padding: 5px 0}
+
+
+
+
+
+
+
+
+
+

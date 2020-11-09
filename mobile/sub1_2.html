@@ -1,0 +1,272 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>신풍제약-회사연혁</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link rel="stylesheet" href="css/subcommon.css">
+<link rel="stylesheet" href="css/sub1_2.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+ <div id="skipNav">
+     <a href="#content">본문바로가기</a>
+     <a href="#gnb">네비게이션바로가기</a>
+ </div>
+ 
+ 
+  <div id="wrap">
+    <header id="headerArea">
+          <h1 class="logo"><a href="index.html">신풍제약주식회사</a></h1>
+          <a href="#" class="btn_all_menu">
+             
+              <span class="barTop"></span>
+              <span class="barMid"></span>
+              <span class="barBot"></span>
+          </a>
+          
+          <nav id="gnb">
+                <ul class="mainMenu">
+                   <img src="images/nav_x2.jpg" alt="">  
+                    <li class="depth1">
+                        <h3><a href="#">기업소개</a></h3>
+                        <ul>
+                           <li><a href="sub1_1.html">CEO인사말</a></li>
+                           <li><a href="sub1_2.html">회사연혁</a></li>
+                           <li><a href="sub1_3.html">위치안내</a></li>
+                  
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">연구개발</a></h3>
+                        <ul>
+                           <li><a href="sub2_1.html">R&amp;D</a></li>
+                           <li><a href="sub2_2.html">파이프라인</a></li>
+                       </ul> 
+                    </li>
+                    <li class="depth1">
+                       <h3><a href="#">홍보센터</a></h3>
+                        <ul>
+                           <li><a href="sub3_1.html">홍보영상</a></li>
+                           <li><a href="sub3_2.html">인사제도</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                    <h3><a href="#">고객지원센터</a></h3>
+                        <ul>
+
+                           <li><a href="sub4_1.html">FAQ</a></li>
+                       </ul> 
+                    </li>
+                </ul>
+                 <ul>
+                
+<?
+    if(!$userid)  //세션변수가 생성되어 있지 않으면 
+	{
+?>
+                    <li><a href="login/login_form.php">로그인</a></li>
+                    <li><a href="member/join.html">회원가입</a></li>
+                    
+                    
+<?
+	}
+	else     //세션변수가 생성되어 있으면(로그인이 되었으면)
+	{
+?>
+                 <li><a href="login/logout.php">로그아웃</a></li>
+                    <li><a href="login/member_form_modify.php">정보수정</a></li>
+<?
+	}
+?>
+                        </ul>
+            </nav>
+           
+      </header>
+    <div class="main">
+         <img src="images/sub1_vi.jpg" alt="">
+    <div class="sub_box">
+        <h3>기업소개</h3>
+        <p>BUSINESS OVERVIEW</p>
+    </div> 
+    </div>
+    <article id="content">
+       <div class="title_area">
+           <h2>회사연혁</h2>  
+           <div class="clear_box"></div>
+       </div>
+        <div class="content_area">
+              <div class="tabs">
+                 <ul>
+                     <li><a class="tab tab1" href="#none">2010s</a></li>
+                
+                     <li><a class="tab tab2" href="#none">2000s</a></li>
+                
+                     <li><a class="tab tab3" href="#none">1990s</a></li>
+                 
+                     <li><a class="tab tab4" href="#none">1980s</a></li>
+                 </ul>
+                  </div>
+                   <section class="contlist">
+                   <h3>2010s</h3>
+                    <img src="images/1.jpg" alt="코로나신약개발">
+                 <dl>
+                     <dt>2016</dt>
+                     <dd><span>05월</span>소아용 “피라맥스 과립” 한국 식약처로 부터 허가승인<br><span>04월</span>제3자 배정(송암사) 유상증자, 지주회사체제 전환</dd>
+                 </dl>
+                 <dl>
+                     <dt>2015</dt>
+                     <dd><span>11월</span>소아용 항말라리아제 “피라맥스 과립” 유럽의약국(EMA)로 부터 허가승인<br><span>11월</span> 유착방지제 “메디커튼” 대한민국발명특허 대상 수상</dd>
+                 </dl>
+                 <dl>
+                     <dt>2013</dt>
+                     <dd><span>08월</span>'산업기술'사업화 기술부문 우수상 수상(산업통상자원부) <br><span>01월</span>EU-GMP 기준 충북오송 생명과학단지 내 세파계 항생제 전용공장 KGMP 승인</dd>
+                 </dl>
+                 <dl>
+                     <dt>2012</dt>
+                     <dd><span>11월</span>충남대학교 약학대학과 강심제 관련 기술이전 조인식 <br><span>02월</span>자궁근종치료제 에스미야®정 유럽위원회 (European Commission,EC)가 판매허가<br><span>02월</span>제 13회 대한민국 신약 개발상 신약개발부분, "피라맥스정: 신약개발대상 수상<br><span>02월</span>청주MBC "충북경제 성공시대" 방영</dd>
+                 </dl>
+                 <dl>
+                     <dt>2010</dt>
+                     <dd><span>03월</span>제 44회 납세자의 날 "모범납세자" 표창(안산세무서) <br><span>03월</span>피라맥스정 유럽약정국(EMA) 신약허가(NDA) 신청</dd>
+                 </dl>
+                 </section>
+                 <section class="contlist">
+                  <h3>2000s</h3>
+                 <img src="images/2.jpg" alt="신약개발">
+                 <dl>
+                     <dt>2009</dt>
+                     <dd><span>06월</span>"Mosapride Citrate(숙신산 모사프리드)" 원료합성 대량생산 성공<br><span>03월</span>"Amlodipine Besylate(베실산 암로디핀)" 원료합성 대량생산 성공</dd>
+                 </dl>
+                 <dl>
+                     <dt>2008</dt>
+                     <dd><span>10월</span>ICTM(국제열대의학회) 감사패 수상<br><span>08월</span> 경기도 안산시 반월공단 내 PYRAMAX(항 말라리아제) 전용공장 준공</dd>
+                 </dl>
+                 <dl>
+                     <dt>2005</dt>
+                     <dd><span>11월</span>제42회 무역의 날, “2000만 불 수출의 탑” 수상 및 “철탑산업훈장” 수훈 <br><span>9월</span>"Zaltoprofen(잘토프로펜)" 원료합성 대량생산 성공</dd>
+                 </dl>
+                 <dl>
+                     <dt>2004</dt>
+                     <dd><span>07월</span>해외협렵업체대상, SHINPOONG WORLD FRIENDSHIP WORKSHOP <br><span>05월</span>신풍제약주식회사 신(新)사옥 준공식(강남구 역삼동 748-31)<br><span>04월</span>"Sulbactam Sodium(설박탐 나트륨)" 원료합성 대량생산 성공<br><span>02월</span>신풍제약주식회사 신(新)사옥 기공식(강남구 역삼동 748-31)</dd>
+                 </dl>
+                   </section>
+                   <section class="contlist">
+                   <h3>1990s</h3>
+                   <img src="images/3.jpg" alt="">
+                   <dl>
+                     <dt>1999</dt>
+                     <dd><span>07월</span>WHO와 유니세프 후원, "국제 헬스케어컨퍼런스" 신풍 기생충구제사업 사례 발표<br><span>04월</span>항생제 "Cefazedone Sodium(세파제돈 나트륨)" 원료합성 대량생산 성공</dd>
+                 </dl>
+                 <dl>
+                     <dt>1998</dt>
+                     <dd><span>11월</span>항암제 “Doxifluridine(독시플루리딘)” 세계 2번째, 국내최초 원료합성 대량생산 성공<br><span>9월</span> 진경제 "Tiropramide HCI(염산 티로프라미드)" 원료합성 대량생산 성공</dd>
+                 </dl>
+                 <dl>
+                     <dt>1995</dt>
+                     <dd><span>09월</span>항생제 "Ceftriaxone Sodium(세프트리악손 나트륨) 원료합성 대량생산 성공 <br><span>01월</span>제약업계 최초로 중국 현지에 “천진신풍제약유한공사”합작법인설립</dd>
+                 </dl>
+                 <dl>
+                     <dt>1992</dt>
+                     <dd><span>11월</span>제 29회 무역의 날,'1000만불 수출의 탑' 수상 <br><span>02월</span>"Ceftezole Sodium(세프테졸 나트륨)" 원료합성 대량생산 성공<br><span>02월</span>"Praziquantel(프라지콴텔)" 제조방법 특허취득(국내,해외)<br><span>02월</span>신풍제약 증권거래소 주식상장</dd>
+                 </dl>
+                 
+                 </section>
+                 <section class="contlist">
+                 <h3>1980s</h3>
+                 <img src="images/4.jpg" alt="">
+                 <dl>
+                     <dt>1988</dt>
+                     <dd><span>11월</span>완제생산 전 제형 KGMP적격업소 지정(보건사회부) <br><span>03월</span>아프리카 수단에 합작회사 GMC설립(의약품 현지 생산,판매)</dd>
+                 </dl>
+                  <dl>
+                     <dt>1987</dt>
+                     <dd><span>12월</span>의약품 수출증대와 산업발전업체 표창(보건사회부장관)<br><span>6월</span> 중견 수출기업 선정(한국장기신용은행)</dd>
+                 </dl>
+                 <dl>
+                     <dt>1984</dt>
+                     <dd><span>11월</span>제23회 무역의 날, "1백만 불 수출의 탑" 수상 <br><span>07월</span>"신풍제약주식회사"로 법인체 전환</dd>
+                 </dl>
+                 </section>
+             </div> 
+    </article>
+    
+     <footer id="footerArea">
+          <div class="footer_top">
+              <ul class="left">
+                  <li><a href="#">개인정보이용약관</a></li>
+                  <li><a href="#" class="topMove">TOP으로 이동</a></li>
+              </ul>
+              <div class="adress">
+                  <adress>
+                      본사: 서울특별시 강남구 역삼로 161 <br>
+                        Tel ; 02-2189-3400
+                  </adress>
+                  <adress>
+                      공장 : 경기도 안산시 단원구 원시로7 <br>
+                      신풍제약 Tel ; 031-491-6191
+                  </adress>
+                  <p>COPYRIGHT(C) SHINPOONG.CO,.LTD ALL</p>
+              </div>
+          </div>
+          <div class="footer_bottom">
+              <a href="../index.html">PC버전</a>
+          </div>
+      </footer>
+  
+  </div>
+ 
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/sub_gnb.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/top.js"></script>
+<script src="js/sub1_2.js"></script>
+
+  
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+</script>
+ 
+ 
+</body>
+</html>

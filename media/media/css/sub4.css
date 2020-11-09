@@ -1,0 +1,208 @@
+#content .main{font-size: 8vw; margin: 10% 0; text-align: center; color: #333}
+
+
+.clip{overflow: hidden; margin-top: 100px; width: 90%; margin: 0 auto}
+.subTitle {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    color: #333
+}
+
+.subTitle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    
+    width: 100px;
+    height: 4px;
+    
+    background: #edbe58
+}
+
+
+
+
+
+
+
+.clip_part {
+    width:50%; float: left;
+    margin-bottom: 100px
+}
+
+.clip_part .contentArea {
+    position: relative;
+    width: 96%;
+    margin: 0 auto 30px
+}
+
+.imgPart {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px
+    ;
+}
+
+.clip_part .contentArea .imgPart .popup-youtube>img {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3)
+       ; border-radius: 10px
+}
+
+.clip_part .contentArea p {
+    color: #333;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.clip_part .playBnt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 110px;
+    margin: -55px 0 0 -55px;
+    border-radius: 94px;
+    background: rgba(0,0,0,.6)
+}
+
+.clip_part .imgPart:hover .playBnt {
+    background: rgba(255,0,0,.6)
+}
+
+.clip_part .playBnt img {
+    position: relative;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -20px    
+}
+----------
+.clip1{overflow: hidden; margin-top: 100px; width: 90%; margin: 0 auto}
+.clip1 .subTitle {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    color: #333
+}
+
+.clip1 .subTitle:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    
+    width: 100px;
+    height: 4px;
+    
+    background: #edbe58
+}
+
+
+
+
+
+
+
+.clip1 .clip_part {
+    width:25%; float: left;
+    margin-bottom: 100px
+}
+
+.clip1 .clip_part .contentArea {
+    position: relative;
+    width: 96%;
+    margin: 0 auto 30px
+}
+
+.clip1 .imgPart {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 30px
+    ;
+}
+
+.clip1 .clip_part .contentArea .imgPart .popup-youtube>img {
+    width: 100%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3)
+       ; border-radius: 10px
+}
+
+.clip1 .clip_part .contentArea p {
+    color: #333;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.clip1 .clip_part .playBnt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 110px;
+    height: 110px;
+    margin: -55px 0 0 -55px;
+    border-radius: 94px;
+    background: rgba(0,0,0,.6)
+}
+
+.clip1 .clip_part .imgPart:hover .playBnt {
+    background: rgba(255,0,0,.6)
+}
+
+.clip1 .clip_part .playBnt img {
+    position: relative;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    margin: -32px 0 0 -20px    
+}
+@media screen and (max-width:1024px) {
+    .clip1 .clip_part {
+    width:50%; }
+    
+}
+
+@media screen and (max-width:786px) {
+    
+    .clip_part {
+    width:auto; float:none;}
+   .clip1 .clip_part {
+    width:auto; float:none; }
+    
+}
+
+@media screen and (max-width:640px) {
+    .subTitle {
+        font-size: 1.5em
+    }
+    .clip1 .clip_part .subTitle {
+        font-size: 1.5em
+    }
+}
+
+@media screen and (max-width:480px) {
+    .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .clip_part .contentArea {
+        width: auto
+    }
+    .clip1 .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+        .clip1 .clip_part .contentArea {
+        width: auto
+    }
+}

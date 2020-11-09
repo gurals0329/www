@@ -1,0 +1,17 @@
+/* 회사연혁본문  */
+.content_area{}
+.content_area table{ width: 1200px}
+.content_area table thead{background: #009624; color: #fff; font-weight: 700;font-family: 'Nanum Gothic', sans-serif; font-size: 18px}
+.content_area table tbody th{background: #fff; font-weight: 700;font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 20px}
+.content_area table th,.content_area table td{border: 1px solid #ccc; padding: 20px 0}
+.content_area table tbody tr{}
+
+
+.content_area table{ text-align: center; margin-bottom: 150px}
+.content_area table td{width: 140px}
+.content_area table tbody .box1{background: #a5e2b2; width: 100%; height: 18px; display: block}
+.content_area table tbody .box2{background: #64bb76; width: 100%; height: 18px; display: block}
+.content_area table tbody .box3{background: #3d9b51; width: 100%; height: 18px; display: block}
+.content_area table tbody .box4{background: #186b2a; width: 100%; height: 18px; display: block}
+.content_area table tbody .box5{background: #0f581e; width: 100%; height: 18px; display: block}
+

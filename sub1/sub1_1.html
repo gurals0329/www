@@ -1,0 +1,69 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-ceo인사말</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>   <!--네비 클루드 -->
+        <? include "../common/sub_head.html" ?>
+        <!--서브네비 클루드 -->
+        <? $_GET['num_k']=1;
+      include "common/sub_nav.html"; 
+      ?>
+       
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>기업소개</span> &gt;
+                   <strong>CEO 인사말</strong>
+               </div>
+               
+               <h2>CEO 인사말</h2>
+               <div class="clear_box"></div>
+            </div>
+            <div class="content_area">
+                <div class="boss"></div>
+                <div class="margin_top">
+                <p><strong>안녕하십니까?</strong><br>
+                <span>신풍제약 홈페이지를 방문에 진심으로 감사 드립니다.</span><br>
+                “민족의 슬기와 긍지로 인류의 건강을 위하여”라는 경영이념으로 창립이래 국민보건향상과 인류의 건강을 위하여 노력해 왔습니다. 설립초기부터 원료의약품에서부터 완제의약품까지 독자적인 기술개발과 수출다변화를 실천하고 있습니다.</p>
+                <p>지난 70∼80년대, 메벤다졸과 프라지콴텔의 원료합성에 성공하여 기생충은 물론 디스토시드박멸사업에 기여하였으며, 90년대, 중국, 베트남, 수단 등 해외법인 설립 후 의약품 수출로 신풍의 글로벌시장영역을 확대해 나가는데 초석이 되고 있습니다. 2000년대 들어 WHO, MMV와 공동으로 차세대 항말라리아제 ‘피라맥스’라는 글로벌신약 개발성공과 혁신신약 연구 등으로 우리의 신약개발에 대한 능력을 국내외에서 널리 입증하였으며, 현재, 그 동안의 R&amp;D 기술을 기반으로 혁신신약 개발과 개량신약 개발에 매진하고 있습니다.</p>
+                <p>뿐만 아니라 KGMP 시설에 의한 전 제형의 완전자동으로 원료에서 완제품에 이르기까지 최첨단 생산설비시설로 양질의 우수의약품 생산 공급에 정진하고 있으며 신 물질 창제를 위한 중앙연구소의 확대 운영을 통해 고부가가치 신약을 창출하고 기술개발에 최선을 다하고 있습니다.</p>
+                <div class="sign"></div>
+            </div>
+            </div>
+            
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        <? include "../common/sub_foot.html" ?>
+    
+     
+     
+   
+    
+</body>
+</html>

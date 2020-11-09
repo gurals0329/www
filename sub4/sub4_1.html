@@ -1,0 +1,230 @@
+<?
+	session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>신풍제약-주식정보</title>
+    
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <link rel="stylesheet" href="css/Nwagon.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/8f74c3df05.js" crossorigin="anonymous"></script>
+    
+     <!--[if IE9]>  
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+        <!-- 메인비주얼영역 -->
+        <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+      ?>
+        
+        <!--본문컨텐츠영역 -->  
+        <article id="content">
+            <div class="title_area">
+               <div class="line_map">
+                   <span>home</span> &gt;
+                   <span>투자정보</span> &gt;
+                   <strong>주식정보</strong>
+               </div>
+               <h2>주식정보</h2>
+               <div class="clear_box"></div>
+            </div>
+            <div class="content_area">
+                
+	            <div id="chart71">
+	                
+	            </div>
+	       
+                 <section class="table1">
+                        <h3>재무상태표</h3>
+                        <p>(단위 :주)</p>
+                        <table>
+                           <thead>
+                            <tr>
+                                <th scope="col" rowspan="2">구분</th>
+                                <th scope="col" colspan="2">주식의 종류</th>
+                                <th scope="col" rowspan="2">비고</th>
+                            </tr>
+                            <tr>
+                                <th>보통주</th>
+                                <th>합계</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                               <th class="lefteng">Ⅰ. 발행할 주식의 총수</th>
+                               <td class="righteng">60,000,000</td>
+                               <td class="righteng">60,000,000</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">Ⅱ. 현재까지 발행한 주식의 총수</th>
+                               <td class="righteng">13,900,000</td>
+                               <td class="righteng">13,900,000</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">Ⅲ. 현재까지 감소한 주식의 총수</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">1. 감자</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                             <tr>
+                               <th class="lefteng">2. 이익소각</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">3. 상환주식의 상환</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">4. 기타</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">Ⅳ. 발행주식의 총수 (Ⅱ-Ⅲ)</th>
+                               <td class="righteng">1,597,178</td>
+                               <td class="righteng">1,597,178</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">Ⅴ. 자기수식수</th>
+                               <td class="righteng">13,900,000</td>
+                               <td class="righteng">13,900,000</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th class="lefteng">Ⅵ. 유통주식수 (Ⅳ-Ⅴ)</th>
+                               <td class="righteng">12,302,822</td>
+                               <td class="righteng">12,302,822</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                </section>
+                <section class="table2">
+                    <h3>의결권현황</h3>
+                    <p>(단위 :주)</p>
+                        <table>
+                           <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col" class="eng">주식의 종류</th>
+                                <th scope="col" class="eng">주식수</th>
+                                <th scope="col" class="eng">비고</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                               <th scope="row" class="lefteng" rowspan="2">발행주식총수(A)</th>
+                               <td class="righteng">보통주</td>
+                               <td class="righteng">13,900,000</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               
+                               <th scope="row" class="lefteng" class="righteng">우선주</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng" rowspan="2">의결권없는 주식수(B)</th>
+                               <td class="righteng">보통주</td>
+                               <td class="righteng">1,597,178</td>
+                               <td class="righteng">자기주식</td>
+                            </tr>
+                            <tr>
+                               
+                               <th scope="row" class="lefteng">우선주</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                             <tr>
+                               <th scope="row" class="lefteng" rowspan="2">정관에 의하여 의결권 행사가 배제된 주식수(C)</th>
+                               <td class="righteng">보통주</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                              
+                               <th scope="row" class="lefteng">우선주</th>
+                               <td class="righteng">7,466,992</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                               <th scope="row" class="lefteng" rowspan="2">기타 법률에 의하여 의결권 행사가 제한된 주식수(D)</th>
+                               <td class="righteng">보통주</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                            <tr>
+                             
+                               <th scope="row" class="lefteng">우선주</th>
+                               <td class="righteng">5,401,374</td>
+                               <td class="righteng">3,125,251</td>
+                            </tr>
+                            <tr >
+                               <th scope="row" class="lefteng" rowspan="2">의결권이 부활된 주식수(E)</th>
+                               <td class="righteng">보통주</td>
+                               <td class="righteng">198,884</td>
+                               <td class="righteng">7,256,877</td>
+                            </tr>
+                            <tr>
+                           
+                               <th scope="row" class="lefteng">우선주</th>
+                               <td class="righteng">-</td>
+                               <td class="righteng">-</td>
+                            </tr>
+                             <tr>
+                               <th scope="row" class="lefteng" rowspan="2">의결권을 행사할 수 있는 주식수(F = A - B - C - D + E)</th>
+                               <td class="righteng">보통주</td>
+                               <td class="righteng">-</td>
+                               <td class="righteng">1,503,877</td>
+                            </tr>
+                            <tr>
+                              
+                               <th scope="row" class="lefteng">우선주</th>
+                               <td class="righteng">503,803</td>
+                               <td class="righteng">326,423</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                    
+                </section>
+            </div>
+            
+        </article>
+                      
+        <!-- 푸터 공통영역 -->
+        
+        
+   <? include "../common/sub_foot.html" ?>
+   
+
+   <script src="js/Nwagon.js"></script>
+   
+</body>
+</html>

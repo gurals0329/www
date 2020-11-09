@@ -1,0 +1,17 @@
+/* 회사연혁본문  */
+.content_area{}
+.content_area ul{overflow: hidden; margin-bottom: 100px}
+.content_area ul li{float: left;border: 1px solid #ccc; font-size: 25px;font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 0 0 50px 10px; width: 236px;text-align: center}
+.content_area ul:nth-child(1){margin-left: 110px}
+.content_area ul li a{display: block; padding: 10px 0}
+.content_area ul li a:hover{background: #4f875c; color: #fff; transition: all .5s}
+
+.content_area section{margin-bottom: 100px;display: none}
+.content_area section h3{ font-size: 40px ;text-align: center; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 50px}
+.content_area dl{overflow:hidden;line-height: 3em; border-bottom: 1px dashed #ccc; margin-top: 50px}
+.content_area dl:nth-last-child(1){margin-top: 50px}
+.content_area dl dt{font-size: 30px ; font-weight: 700;font-family: 'Nanum Gothic', sans-serif; color: #4f875c; float: left; margin:0 200px 150px  150px}
+.content_area dl dd{text-align: left; margin-bottom: 50px}
+.content_area dl span{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; margin-right: 10px}
+.content_area img{margin-left: -400px}
+.content_area .on{background:#4f875c; color: #fff}

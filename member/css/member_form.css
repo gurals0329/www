@@ -1,0 +1,81 @@
+header{margin-left: 202px; padding: 10px 0 25px}
+header h1 a{display: block; width: 100px; height: 100px; text-indent: -999px; overflow: hidden; background: url(../../images/logo.png)}
+#content  {
+    width:500px; margin:50px auto 100px;  font-family: "돋움"; font-weight: 300 ; padding: 31px; border: 2px solid #ccc; border-radius: 10px
+}
+label{color: #333; font-size: 12px; margin-left: 10px;font-weight: 700}
+#content h2 {
+    font-size:23px; font-weight: 700; text-align: center; margin-bottom:35px;font-family: 'Nanum Gothic', sans-serif;
+}
+.id_for{font-weight: 700}
+#content p {
+    margin-bottom:20px; font-size:16px; color:#478255
+}
+#content ul{width: 429px; margin-left: 39px}
+#content ul li {
+    position: relative; box-sizing: border-box; margin-bottom:20px
+}
+
+#content ul li input, #content ul li select  {
+  width:100%; height:60px; padding:10px; box-sizing: border-box; font-size:16px; border:none; 
+    border-bottom: 2px solid #ccc; outline: none; font-weight: 700
+}
+
+#content ul li:nth-of-type(2) {
+    width:100%; 
+}
+
+#content ul li:nth-of-type(3) {
+    width:100%; 
+}
+
+#content ul li #pass, 
+#content ul li #pass_confirm {
+    width:100%; 
+}
+
+#content ul li #passtext {
+    display: block;  position: absolute; right:10px ;top:10px; 
+}
+
+
+
+
+#content ul li #hp1, #content ul li #hp2, #content ul li #hp3 {
+    width:128px
+}
+
+#content ul li #email1, #content ul li #email2 {
+    width:201px
+}
+
+#content ul li:nth-of-type(4) {
+    clear: both
+}
+
+
+#content ul li #loadtext {
+    position: absolute; top:37px; right:10px
+}
+
+#content ul li #loadtext2 {
+    position: absolute; top:37px; right:10px
+}
+
+#content .button {
+    overflow: hidden; width:370px; margin: 67px auto 0; display: flex; justify-content: space-between
+}
+
+#content .join_btn, #content .reset_btn {
+    display: block; width:180px; padding:16px 0; background:#ddd; text-align: center; font-size:16px
+}
+
+#content .join_btn {
+    background: #478255; color: #fff
+}
+
+
+
+
+
+

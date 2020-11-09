@@ -1,0 +1,32 @@
+        <script src="../common/js/jquery-1.12.4.min.js"></script>
+        <script>
+              $(document).ready(function() {
+                  var num = '<?=$_GET['num']?>';
+
+                  if(num==1){
+                      $('.subnav ul li:eq(0)').find('a').addClass('current');
+                  }else if(num==2){
+                      $('.subnav ul li:eq(1)').find('a').addClass('current');
+                  }
+               });
+
+        </script>
+
+
+        <!-- 메인비주얼영역 -->
+        <div class="visual">
+            <img src="common/images/introduce.jpg" alt="">
+        </div>
+        <!--서브네비영역 -->
+        <div class="subnav_box">
+            <h3>홍보센터</h3>
+            <p>끝없이 발전하는 기업 신풍제약</p>
+            <div class="subnav">
+                <ul>
+                    <li><a id="nav1" href="sub5_1.html">홍보영상</a></li>
+                    <li><a id="nav2" href="sub5_2.html">인사제도</a></li>
+            
+                </ul>
+            </div> 
+        </div>
+        

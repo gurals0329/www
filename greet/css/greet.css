@@ -1,0 +1,411 @@
+input{outline: none}   
+#content #col2 {
+	width:800px;
+	min-height:558px;
+	float:left;
+	    margin-left: 180px;
+    margin-top: -50px;
+/*	border:solid 1px #cccccc; */
+}
+.content_area{margin-top: -110px}
+#content #col2 #title{
+	margin-top:30px;
+	height:30px;
+	border-bottom:solid 1px #cccccc;
+}
+
+/* list css */
+
+#list_search {
+	height:30px;
+	padding-top:10px;
+    margin: 0 0 80px 440px;
+    position: relative
+}
+
+#list_search #list_search1 {
+	float:left;
+	margin-top:-22px;
+    border: 2px solid;
+    padding: 10px 3px;
+    background: green;
+    color: #fff;
+   
+        
+    
+}
+
+#list_search #list_search2 {
+	float:left;
+	margin-left:728px;
+	margin-top:4px;
+}
+
+
+#list_search #list_search3 {
+	float:left;
+	margin-left:5px;
+    outline: none
+	
+}
+
+#list_search #list_search3 select {
+	width:91px;
+	height:41px;
+	border:solid 1px #cccccc;
+    outline: none;
+   
+}
+
+#list_search #list_search4 {
+	float:left;
+	margin-left:3px;
+    outline: none
+}
+
+#list_search #list_search4 input {
+	width:197px;
+	height:37px;
+	border:solid 1px #cccccc;
+    outline: none;
+   
+    
+}
+
+#list_search #list_search5 {
+	float:left;
+	margin-left:5px;
+	margin-top:1px;
+    position: absolute;
+    right: 467px;
+    top: 14px;
+}
+
+#list_top_title {
+	height:20px;
+	padding:7px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+	margin-bottom:3px;
+}
+
+#list_top_title li {
+	display:inline;
+}
+
+#list_top_title #list_title1 {
+	margin-left:5px;
+    
+    
+}
+
+#list_top_title #list_title2 {
+	margin-left:250px;
+}
+
+#list_top_title #list_title3 {
+	margin-left:290px;
+}
+
+#list_top_title #list_title4 {
+	margin-left:32px;
+}
+
+#list_top_title #list_title5 {
+	margin-left:26px;
+}
+
+.list_content {
+	
+    margin-bottom: 100px;
+       width: 800px;
+    margin: 0 auto 180px; 
+        border-top: 2px solid;
+}
+
+.list_item {
+	height:18px;
+	margin-top:2px;
+	padding:20px;  
+	border-bottom:solid 1px #ccc;
+}
+
+.list_item .list_item1{
+	float:left;
+	width:40px;
+	text-align:center;
+        font-size: 23px;
+    font-weight: 700;
+    color: #666;
+    margin-top: -5px
+}
+
+.list_item .list_item2{
+	float:left;
+	width:560px;
+        margin-left: 50px;
+}
+
+.list_item .list_item3{
+	float:left;
+	width:65px;
+	text-align:center;
+    margin-left: 10px
+}
+
+.list_item .list_item4{
+	float:left;
+	width:80px;
+	text-align:center;
+     margin-left: 14px
+    ;font-size: 13px
+}
+
+.list_item .list_item5{
+	float:left;
+	width:40px;
+	text-align:center;
+     margin-left: 10px
+}
+
+#page_button {
+	margin-top:20px;
+    
+}
+
+#page_num {
+	float:left;
+	width:63%;
+	margin-top:16px;
+	text-align:center;
+    margin-left: 158px
+}
+#page_num a:hover{border-bottom: 1px solid}
+
+#button {
+	float:left;
+	width:18%;
+	text-align:right;
+        margin-left: 665px;
+    margin-top: 13px;
+}
+#button a{border: 1px solid ; padding: 10px ; color: #333}
+#button a:hover{background: green; color: #fff}
+
+#write_button {
+	margin-top:15px;
+	width:97%;
+	text-align:right;
+}
+#write_button a{
+    color: #333;
+    }
+#write_button a:hover{ color: green}
+/* write_form css */
+
+
+
+.board_form{width: 838px}
+#write_form_title {
+
+	width:99%;
+	height:20px;
+	text-align:center;
+	padding-top:7px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#4f875c;;
+        padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff
+}
+
+#write_form {
+	margin-top:10px;
+}
+
+#write_form #write_row1 {
+    width:99%; 
+	height:25px; 
+	margin:2px 0 2px 0; 
+    padding: 10px 0
+}
+#write_form #write_row1 .col2{font-weight: 700}
+
+#write_form #write_row2 {
+    width:99%; 
+	height:25px; 
+	margin:2px 0 2px 0; 
+     padding: 10px 0
+}
+
+#write_form #write_row3 {
+    width:99%; 
+	height:251px; 
+	margin:2px 0 2px 0; 
+     padding: 10px 0
+}
+
+.write_line {
+    width:99%; 
+	border-bottom:solid 1px #cccccc;
+}
+
+#write_form .col1 {
+	float:left;
+	width:83px;
+	text-align:center;
+	padding:5px;
+	
+    font-weight: 700
+}
+
+#write_form #write_row3 .col1 {
+	height:126px;
+	padding-top:120px;
+}
+#write_form #write_row5,#write_form #write_row4,#write_form #write_row6{overflow: hidden;width: 100%}
+
+#write_form .col2 {
+	float:left;
+	margin-left: 8px;
+	margin-top:2px;
+}
+
+#write_form #write_row1 .col2 {
+	float:left;
+	margin-top:6px;
+}
+
+#write_form #write_row1 .col3 {
+	float:left;
+	margin-top:4px;
+	margin-left:100px;
+}
+
+#write_row2 .col2 input {
+	width:600px;
+	height:19px;
+	border:solid 1px #cccccc;
+}
+
+#write_row3 .col2 textarea {
+    margin-top:1px;
+	border:solid 1px #cccccc;
+    width: 600px
+}
+.wrt_col{height: 800px}
+
+
+    
+
+/* view.php css */
+.view{margin-top: -100px}
+#view_comment {
+	margin:10px 0 0 10px;
+}
+
+#view_title {
+	height:18px;
+	padding:21px 8px 21px 8px;  
+	border-top:solid 2px #333;
+	border-bottom: 1px solid #ccc;
+	margin-bottom:5px;
+}
+
+#view_title1 {
+	float:left;
+	width:70%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#view_title2 {
+	float:left;
+	width:28%;
+	text-align:right;
+    font-size: 14px
+}
+
+#view_content {
+	width:96%;
+	min-height:200px;
+	padding:15px;
+	overflow:hidden;
+	line-height:150%;
+	border-bottom:solid 1px #cccccc;
+}
+
+#view_button {
+	width:98%;
+	text-align:right;
+	margin-top:15px;
+	margin-bottom:70px;
+}
+#view_button a{
+    color: #333;
+    }
+#view_button a:hover{ color: green}
+
+/* write_form css */
+
+#ripple {
+	width:98%;
+
+}
+
+#ripple_writer_title {
+	height:26px;
+	padding-top:10px; 
+}
+
+#ripple_writer_title ul {
+	margin-left:5px;
+    font-weight: 700
+}
+
+#ripple_writer_title li {
+	display:inline;
+}
+#ripple_content {
+	padding:10px;
+	margin-left:5px;
+	line-height:150%;
+}
+
+.hor_line_ripple {
+	width:100%;
+	height:1px;
+	margin-bottom:10px;
+	border-bottom:solid 1px #efefef;
+}
+
+#ripple_box {
+	width:99%;
+	height:100px;
+	padding:8px;
+	margin-left:3px;
+	margin-bottom:15px;
+	background-color:#f6f6eb;
+}
+
+#ripple_box1 {
+	    float: left;
+    margin: 30px;
+
+    font-weight: 700;
+}
+
+#ripple_box2 {
+	float:left;
+	margin:5px;
+}
+
+#ripple_box2 textarea {
+	border:solid 1px #cccccc;
+}
+
+#ripple_box3 {
+	float:left;
+	margin:5px 0 0 10px;
+}

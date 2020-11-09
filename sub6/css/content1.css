@@ -1,0 +1,52 @@
+.content_area{}
+.content_area .on{background: #399c50;color:#fff }
+.content_area .accordion span{margin-right: 
+    10px;color: green;font-weight: 700;font-size: 20px}
+.content_area div:nth-child(1){margin-bottom: 100px}
+.content_area .accordion p{width: 1000px}
+.content_area ul{overflow: hidden; margin-bottom: 100px}
+.content_area .tabs ul li{float: left;border: 1px solid #ccc; font-size: 25px;font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 0 0 50px 10px; width: 236px;text-align: center}
+.content_area ul:nth-child(1){margin-left: 350px}
+.content_area ul li a{display: block; padding: 10px 0}
+.content_area ul li a:hover{background: #4f875c; color: #fff; transition: all .5s}
+
+section{margin-bottom: 100px;display: none}
+section h3{font-size: 30px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif;margin-bottom: 50px}
+
+.faq{width:1200px; border-bottom:1px solid #ddd;font-size:12px}  
+.faq strong{margin-right: 20px}
+.faq .hgroup{position:relative;margin:0 0 10px 0;font-size: 50px}  
+.faq .hgroup .all{position:absolute; top:5px; right:10px;
+       color:#666 ; text-decoration:none;}  
+.faq ul{margin:0;padding:0;list-style:none}  
+.faq .q{margin:0;border-top:1px solid #ddd ; position: relative}  
+.faq .q span{display: block; font-size: 25px; position: absolute; right: 15px; top: 15px; color: #999}  
+.faq .q a.trigger{display:block;padding:20px 15px;background:#fff;color:#666;text-decoration:none ;font-size: 18px;font-family: 'Nanum Gothic', sans-serif; font-weight: 700}  
+.faq .hide .q a.trigger{font-weight:700;background:none;font-family: 'Nanum Gothic', sans-serif}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:#399c50;color:#fff }  
+.faq .a{margin:0;padding:20px;line-height:2em; display: none;font-size: 16px;background: #ebf8ff; height: auto} 
+.faq li strong{font-size: 20px; font-weight: 700; color: green;font-family: 'Nanum Gothic', sans-serif}
+
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus span{color:#fff }  
+
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus strong{color:#fff }
+
+.content_area .con_top{position: relative}
+.content_area .con_top p{font-size: 30px ; position: absolute;top: 30%; left: 50%; margin-left: -240px; font-weight: 700;font-family: 'Nanum Gothic', sans-serif}
+.content_area .con_top img{width: 2000px; margin-left: -400px;margin-bottom: 150px}
+.content_area .call h3{font-size: 40px; font-weight: 700;font-family: 'Nanum Gothic', sans-serif}
+.content_area .call ul{width: 1200px}
+.content_area .call ul li{width:1200px;height: 250px; border:none; text-align: left; border-top: 1px solid #ccc; overflow: hidden}
+.content_area .call ul li dl{margin-top: 50px;font-family:none; float: left; font-size: 18px}
+.content_area .call ul li dl dt{margin-bottom: 30px; font-size: 30px}
+.content_area .call ul li dl dd{margin-bottom: 50px;font-size: 20px}
+
+.content_area .call ul li span{float: right; display: block;margin-top: 200px; font-size: 20px; font-weight: 700}
+
+.content_area .call ul li span i{font-size: 25px; margin-right: 10px;color: #4f875c}

@@ -1,0 +1,33 @@
+/* 인사말본문  */
+
+
+#content .content_area {}
+#content .content_area .box{background:url(../images/content1/r&d.jpg) center no-repeat ; width: 1200px; height: 727px; margin-bottom: 100px}
+#content .content_area .con1{position: relative; margin-bottom: 150px}
+#content .content_area .con2{position: relative; overflow: hidden; margin-bottom: 150px}
+#content .content_area .con3{position: relative; margin-bottom: 150px; border-bottom: 1px solid #ccc; height: 450px}
+
+#content .content_area .sub3_left1{background: url(../images/content1/123.jpg); width: 700px; height: 300px;text-indent: -999px; overflow: hidden; border-radius: 5px}
+
+#content .content_area .sub3_right1{width: 640px; height: 210px; background: #fff; position: absolute; right: 10px; top: 50px; text-align: center; opacity: .7; box-shadow: 0 0 5px 2px #ccc;border-radius: 5px}
+
+#content .content_area .sub3_right1 p{margin: 30px; line-height: 2em;letter-spacing: -1px}
+#content .content_area .sub3_right1 span{font-size: 20px; font-family: 'Nanum Gothic', sans-serif;; font-weight: 700; color: #333; line-height: 2em}
+
+
+#content .content_area .sub3_left2{background: url(../images/content1/234.jpg); width: 700px; height: 300px;float: right;text-indent: -999px; overflow: hidden; border-radius: 5px}
+
+#content .content_area .sub3_right2{width: 640px; height: 210px; background: #fff; position: absolute; left: 10px; top: 50px; text-align: center; opacity: .7; box-shadow: 0 0 5px 2px #ccc; float: left; border-radius: 5px}
+
+#content .content_area .sub3_right2 p{margin: 20px; line-height: 2em; font-size: 18px; letter-spacing: -1px}
+#content .content_area .sub3_right2 span{font-size: 20px; font-family: 'Nanum Gothic', sans-serif;; font-weight: 700; color: #333; line-height: 2em}
+
+#content .content_area .sub3_left3{background: url(../images/content1/345.jpg); width: 700px; height: 300px;text-indent: -999px; overflow: hidden; border-radius: 5px}
+
+#content .content_area .sub3_right3{width: 640px; height: 210px; background: #fff; position: absolute; right: 10px; top: 50px; text-align: center; opacity: .7; box-shadow: 0 0 5px 2px #ccc;border-radius: 5px}
+
+#content .content_area .sub3_right3 p{margin: 30px; line-height: 2em;letter-spacing: -1px}
+#content .content_area .sub3_right3 span{font-size: 20px; font-family: 'Nanum Gothic', sans-serif;; font-weight: 700; color: #333; line-height: 2em}
+
+
+

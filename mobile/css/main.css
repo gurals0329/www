@@ -1,0 +1,220 @@
+/*   
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+*/
+
+/* CSS Document */
+.main{position: relative; margin-bottom: 20px}
+
+/* CSS Document */
+
+.visual{position:relative; overflow:hidden; background-color: #000}
+.gallery{position:relative; left:0; top:0; overflow:hidden; background: #000}
+.gallery img{width: 100%}
+.gallery ul li{display: none}
+.dock{width:100%; position:absolute; bottom: 40%; left: 45%}
+.dock_inner{width: 55px; margin: 0 auto}
+.dock span.mbutton{margin-right:6px; cursor:pointer; 
+    display:block; float:left; width:6px; height:6px;
+   background: #fff; border-radius:5px; transition: all .5s}
+.ps{cursor:pointer; 
+    display:block; width:13px; height:13px;
+    background:url(../images/stop.png)no-repeat center; position: absolute; right: 20px; bottom: 20px; background-size: cover}
+
+.visual .gallery_text ul li{display: none}
+.visual .gallery_text{width: 100%; position: absolute; bottom: 55%; color: #fff; text-align: center; animation:text-up 1s}
+        @keyframes text-up {
+            0% {
+                opacity: 0.1;
+                transform: translateY(30px);
+            } 
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+.visual .text_list1{animation:text-up 1s}
+        @keyframes text-up {
+            0% {
+                opacity: 0.1;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+.visual .text_list2{animation:text-up 1s}
+        @keyframes text-up {
+            0% {
+                opacity: 0.1;
+                transform: translateY(30px);
+            } 
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+.visual .text_list3{animation:text-up 1s}
+        @keyframes text-up {
+            0% {
+                opacity: 0.1;
+                transform: translateY(30px);
+            } 
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+.gallery_text{width: 100%;
+    position: absolute;
+    bottom: 55%;
+    color: #fff;
+    text-align: center;
+    animation: text-up 1s;
+}
+.gallery_text .text_top{font-size: 48px;
+    font-weight: 100;
+    margin-bottom: 12px;font-family: 'Nanum Gothic', sans-serif}
+.gallery_text .text_bottom{font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    font-weight: 400;}
+
+
+#content{}
+/*첫번쨰*/
+.int_inner{ background: #f0f0f0; position: relative; margin-bottom: 40px}
+.introduce{position: relative;overflow: hidden;padding-bottom: 20px}
+.introduce .int1 img{width: 75%; margin: 10px 0 0 12px ;float: left}
+
+.introduce .int2{width: 58% ;background: #fff; position: absolute; right: 12px ;top: 25%; height: 100px; box-shadow: 0 5px 10px 0px gray}
+.introduce .int2 h3{margin: 30px 0 12px 0;font-size: 14px; font-weight: 700; text-align: center;font-family: 'Nanum Gothic', sans-serif}
+.introduce .int2 a{margin-left:85%;width: 100%}
+
+/*두번째*/
+.research_development{overflow: hidden;position: relative;padding:10px 0}
+.research_development .research1 img{width: 75%;float: right; margin: 0 12px 12px 0}
+
+.research_development .research2{width: 58%; background: #fff; position: absolute; left: 12px ;top: 25%; height: 100px;box-shadow: 0 5px 10px 0 gray}
+.research_development .research2 h3{margin: 30px 0 25px 0;font-size: 14px; font-weight: 700; text-align: center;font-family: 'Nanum Gothic', sans-serif}
+.research_development .research2 a{display: block;margin-left:85%;width: 100%}
+
+/*product*/
+
+.product{position: relative; width: 100%; margin-bottom: 20%}
+.product a{display: block; width: 100%}
+.product li{overflow: hidden}
+.product li h3{font-size: 5.4vw; font-weight: 700;font-family: 'Nanum Gothic', sans-serif;margin:0 0 10px 8%}
+.product li .line::before{content: '';width: 5%; height: 2px; position: absolute; left: 8%; top: 10%; background:#25a387}
+.product li a{margin-bottom: 70px}
+.product img{width: 30%;  float: left; margin: 10% 8% 0 5%}
+.product dl{width: 57%; float: left; margin-top: 20%}
+.product dl dt{font-size: 4vw; font-weight: 700;font-family: 'Nanum Gothic', sans-serif; margin-bottom: 25px}
+.product dl dd{font-size: 3.7vw; line-height: 1.8em}
+
+
+    
+
+     html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+/*movie*/
+
+.movie{position: relative}
+.movie li{}
+.movie h3{font-size: 5.4vw;  font-weight: 700;font-family: 'Nanum Gothic', sans-serif;margin:0 0 10px 8%}
+.movie li .line1::before{content: '';width: 5%; height: 2px; position: absolute; left: 8%; top: 10%; background:#25a387}
+.movie li .line2::before{content: '';width: 35%; height: 1%; position: absolute; left: 11%; background:#25a387}
+.movie video{ margin: 15% 10% 0 10%}
+.movie p{font-size: 5vw ;font-weight: 700;font-family: 'Nanum Gothic', sans-serif; margin:5% 0 5% 10%}
+.movie span{font-size: 3.7vw; line-height: 1.5em;margin:0 0 0 10%}
+
+/*company*/
+
+.company{position: relative;overflow: hidden; margin-bottom: 100px}
+.company p{font-size: 4vw; font-weight: 700;font-family: 'Nanum Gothic', sans-serif;margin:50px 0 10px 10%; line-height: 1.5em}
+.company dl{font-size: 3.5vw}
+.company img{width: 33% ;margin-left: 9%}
+
+.company .first{overflow: hidden; margin: 50px 10px 0 10px}
+.company .second{overflow: hidden; margin: 50px 10px 0 10px} 
+
+.company .first .left{float: left; width: 50%; text-align: center}
+.company .first .left dl{margin-right: 10px}
+.company .first .left dt{color: blue; font-weight: 700; margin-bottom: 3px}
+.company .first .left dd{}
+
+.company .first .right{float: right;width: 50%; text-align: center}
+.company .first .right dt{color: #c4c603; font-weight: 700; margin-bottom: 3px}
+.company .first .right dd{}
+
+.company .second .left{float: left; width: 50%; text-align: center}
+.company .second .left dl{margin-right: 10px}
+.company .second .left dt{color: green; font-weight: 700; margin-bottom: 3px}
+.company .second .left dd{}
+
+.company .second .right{float: right;width: 50%; text-align: center}
+.company .second .right dt{color: red; font-weight: 700; margin-bottom: 3px}
+.company .second .right dd{}
+
+
+.company .first .left img{float: left}
+.company .first .left dl{float: right}
+.company .first .right img{float: left }
+.company .first .right dl{float: right}
+
+.company .second .left img{float: left}
+.company .second .left dl{float: right}
+.company .second .right img{float: left}
+.company .second .right dl{float: right}
+
+/*RECRUIT*/
+
+#content .recruit{background: url(../images/con9_x2.jpg); position: relative; width: 100%; height: 110px; background-size: cover; line-height: 1em; margin-bottom: 50px; z-index: 99}
+#content .recruit h3{font-size: 16px; color: #fff;font-family: 'Nanum Gothic', sans-serif;font-weight: 700;text-align: center;padding-top: 10px}
+#content .recruit p{font-size: 14px; color: #fff; text-align: center; margin-top: 5px}
+#content .recruit a{font-size: 14px; color: #fff; background: #228144; position: absolute; left: 50%;margin-left: -59px; margin-top: 10px;padding: 5px}
+
+
+
+
+
+

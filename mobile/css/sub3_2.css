@@ -1,0 +1,29 @@
+.main {position: relative;margin-top: 62px}
+.main img{width: 100%}
+.main .sub_box{position: absolute;top:30%;left: 50%;margin-left: -88px;text-align: center; line-height: 1.8em}
+.main .sub_box h3{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #fff}
+.main .sub_box p{font-size: 16px;color: #fff;font-weight: 700}
+
+.title_area{text-align: center; line-height: 1.8em;margin-top: 50px; margin-bottom: 50px}
+.title_area h2{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #333; margin-bottom: 10px}
+.title_area .clear_box{width: 35px; height: 2px; background: #4f875c; position: relative; left: 50%; margin-left: -17px}
+.content_area{margin-top: 100px; margin: 0 20px}
+
+
+.content_area .con3{overflow: hidden}
+
+
+.content_area .top p:nth-child(1){font-size: 18px; font-weight: 700 ;font-family: 'Nanum Gothic', sans-serif;text-align: center; margin-bottom: 50px; line-height: 1.8em}
+.content_area .top p:nth-child(2){font-size: 14px; line-height: 1.8em; text-align: justify; margin-bottom: 100px}
+
+.content_area .first ul dl{overflow: hidden; margin-bottom: 50px; border-bottom: 1px solid #ccc; padding: 0 0 100px 0 }
+.content_area .first ul dt{font-size: 18px ;color: green; text-align: center; margin-bottom: 50px}
+.content_area .first ul dd{text-align: justify; font-size: 14px; line-height: 1.5em;font-family: '돋움'}
+
+.content_area .third{}
+.content_area .third P{font-size: 18px; font-weight: 700; text-align: center}
+.content_area .third ul{overflow: hidden}
+.content_area .third li{margin: 80px 0 10px 0;overflow:hidden}
+.content_area .third li:nth-last-child(1){padding-bottom: 30px}
+.content_area .third li img{width: 40px;float: left; margin-left: 2%}
+.content_area .third li span{width: 100%;font-size: 14px;line-height: 1.5em;text-align: center;float: right}

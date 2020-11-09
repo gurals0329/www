@@ -1,0 +1,40 @@
+.main {position: relative;margin-top: 62px}
+.main img{width: 100%}
+.main .sub_box{position: absolute;top:30%;left: 50%;margin-left: -88px;text-align: center; line-height: 1.8em}
+.main .sub_box h3{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #fff}
+.main .sub_box p{font-size: 16px;color: #fff;font-weight: 700}
+
+.title_area{text-align: center; line-height: 1.8em;margin-top: 50px}
+.title_area h2{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #333; margin-bottom: 10px}
+.title_area .clear_box{width: 35px; height: 2px; background: #4f875c; position: relative; left: 50%; margin-left: -17px}
+
+#content .content_area{margin-top: 50px; position: relative}
+
+#map{position: relative; overflow: hidden; width: 80%; height: 300px;margin:0 10% ; border: 1px solid #ccc}
+
+
+
+
+.con_bottom{padding: 10%; width: 100%; margin-bottom: 50px; overflow: hidden; position: relative }
+.con_bottom h3{font-size: 20px; font-weight: 700; font-family:  'Nanum Gothic', sans-serif; margin-bottom: 30px}
+.con_bottom img{}
+
+.con_bottom .top{overflow: hidden;  width: 100%}
+.con_bottom .top .top_left{width: 100%}
+.con_bottom .top .top_left p{font-size: 18px; font-family: 'Nanum Gothic', sans-serif; font-weight:700; margin-bottom: 20px}
+.con_bottom .top .top_left img{width: 10%;margin-top: 50px}
+.con_bottom .top dl{overflow: hidden;width: 100%}
+.con_bottom .top dt{float: left; line-height: 1.5em}
+.con_bottom .top dd{float: right; line-height: 1.5em;margin-right: 25%;font-size: 14px}
+.con_bottom .top span{font-size: 16px;background: green;color: #fff}
+.con_bottom .top span:nth-child(1){background: blue; color: #fff}
+.con_bottom .top span:nth-last-child(1){background: red; color: #fff}
+
+
+.con_bottom .bottom{overflow: hidden; width: 100%; margin-top: 50px}
+.con_bottom .bottom .bottom_left{}
+.con_bottom .bottom .bottom_left img{width: 10%;margin-bottom: 10px}
+.con_bottom .bottom .bottom_left p{font-size: 18px; font-family: 'Nanum Gothic', sans-serif; font-weight:700;margin-bottom: 20px}
+.con_bottom .bottom dl{}
+.con_bottom .bottom dt{}
+.con_bottom .bottom dd{margin: 20px 0 0 0}

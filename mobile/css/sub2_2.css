@@ -1,0 +1,33 @@
+/*   
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+*/
+.main {position: relative;margin-top: 62px}
+.main img{width: 100%}
+.main .sub_box{position: absolute;top:30%;left: 50%;margin-left: -130px;text-align: center; line-height: 1.8em}
+.main .sub_box h3{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #fff}
+.main .sub_box p{font-size: 16px;color: #fff;font-weight: 700}
+
+.content{}
+
+.title_area{text-align: center; line-height: 1.8em;margin-top: 50px}
+.title_area h2{font-size: 18px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; color: #333; margin-bottom: 10px}
+.title_area .clear_box{width: 35px; height: 2px; background: #4f875c; position: relative; left: 50%; margin-left: -17px}
+
+/* 회사연혁본문  */
+.content_area{margin-top: 50px}
+.content_area table{width: 100%; margin: 0 auto}
+.content_area table thead{background: #009624; color: #fff; font-weight: 700;font-family: 'Nanum Gothic', sans-serif; font-size: 14px}
+.content_area table tbody th{background: #fff; font-weight: 700;font-family: 'Nanum Gothic', sans-serif; color: #333; font-size: 16px}
+.content_area table th,.content_area table td{border: 1px solid #ccc}
+.content_area table tbody tr{}
+
+
+.content_area table{text-align: center; margin-bottom: 150px}
+.content_area table td{}
+.content_area table tbody .box1{background: #a5e2b2; width: 100%; height: 15px; display: block}
+.content_area table tbody .box2{background: #64bb76; width: 100%; height: 15px; display: block}
+.content_area table tbody .box3{background: #3d9b51; width: 100%; height: 15px; display: block}
+.content_area table tbody .box4{background: #186b2a; width: 100%; height: 15px; display: block}
+.content_area table tbody .box5{background: #0f581e; width: 100%; height: 15px; display: block}
+

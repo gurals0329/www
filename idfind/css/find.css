@@ -1,0 +1,74 @@
+#content{height: 1000px}
+#content .id_form{
+    margin-right: 30px;
+    float: right;
+        height: 540px; 
+    width: 440px
+    ;border-radius: 9px
+    ;background: rgba(255,255,255,.9)
+    ;position: absolute;
+    left: 50%;
+    top:20%;
+    margin-left: -220px
+;border: 1px solid
+}#content .pass_form{
+    margin-right: 30px;
+    float: right;
+        height: 540px; 
+    width: 440px
+    ;border-radius: 9px
+    ;background: rgba(255,255,255,.9)
+    ;position: absolute;
+    left: 50%;
+    top:20%;
+    margin-left: -220px
+;border: 1px solid
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 70px;
+}
+input{border: none;border-bottom: 1px solid #999 ;background: none; margin-bottom: 50px}
+.name_input{    width: 300px;
+    height: 30px;
+    outline: none;
+
+    margin-left: 65px;}
+.number_input{    width: 89px;
+    height: 30px;
+    outline: none;}
+
+.find_btn{ float: left;
+      margin-top: 102px;
+    margin-left: 175px;
+}
+
+.find_btn:hover i{color: green}
+.find_btn i{   margin-left: 32px;    font-size: 24px;
+    margin-bottom: 10px;
+}
+.pass_btn{ float: left;
+      margin-top: 29px;
+    margin-left: 175px;
+}
+.pass_btn:hover i{color: green}
+.pass_btn i{   margin-left: 32px;    font-size: 24px;
+    margin-bottom: 10px;
+}
+#content .close{
+    position: absolute;
+    right: 22px;
+    top: 12px;
+    display: block;
+    transition: 1s;
+    padding: 5px;
+    color: #333;
+    font-size: 35px
+}
+#content .close:hover{
+    transform: rotate(-360deg)
+}
+.num {
+    margin-left: 61px;
+}

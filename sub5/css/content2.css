@@ -1,0 +1,28 @@
+/* 회사연혁본문  */
+.content_area{;margin-bottom: 100px}
+.content_area .con3{overflow: hidden}
+
+.content_area .sub_visual{width: 2000px;height: 400px; background: url(../images/content2/2222.jpg)center center no-repeat; margin-left: -400px;margin-bottom: 100px}
+.content_area .top p:nth-child(1){font-size: 30px; font-weight: 700 ;font-family: 'Nanum Gothic', sans-serif;text-align: center; margin-bottom: 50px}
+.content_area .top p:nth-child(2){font-size: 16px; line-height: 1.5em; text-align: center; margin-bottom: 100px}
+
+.content_area .first ul dl{overflow: hidden; margin-bottom: 50px; border-bottom: 1px solid #ccc; padding: 0 0 100px 0 }
+.content_area .first ul dt{font-size: 40px ;color: green; float: left}
+.content_area .first ul dd{float: right; font-size: 18px; line-height: 1.5em;font-family: '돋움'}
+.content_area .second ul{border-bottom: 1px solid #ccc; height: 210px}
+.content_area .second ul li:nth-child(1){float: left}
+.content_area .second ul li:nth-child(2){float: right; margin-right: 200px}
+.content_area .second li dl{}
+.content_area .second ul dt{font-size: 30px; font-weight: 700 ; margin: 30px 0}
+.content_area .second ul dd{font-size: 20px}
+.content_area .third{}
+.content_area .third P{font-size: 40px; font-weight: 700; margin: 100px 0 0 0}
+.content_area .third ul{overflow: hidden}
+.content_area .third li{ width: 150px; margin-top: 80px; padding:40px 120px; background-size: 50px}
+.content_area .third li span{font-size: 16px;line-height: 1.5em; font-weight: 700}
+.content_area .third li:nth-child(1){background: url(../images/content2/one.png)no-repeat left center;float: left}
+.content_area .third li:nth-child(2){background: url(../images/content2/two.png)no-repeat left center;float: left}
+.content_area .third li:nth-child(3){background: url(../images/content2/three.png)no-repeat left center;float: left}
+.content_area .third li:nth-child(4){background: url(../images/content2/four.png)no-repeat left center;float: left}
+.content_area .third li:nth-child(5){background: url(../images/content2/five.png)no-repeat left center;float: left}
+.content_area .third li:nth-child(6){background: url(../images/content2/six.png)no-repeat left center;float: left}
